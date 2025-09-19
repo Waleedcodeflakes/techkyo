@@ -8,10 +8,10 @@ const QuestionForm = ({hide}) => {
         {hide === 'true' && (
             <div className='w-full absolute top-[-8rem] left-0 z-[-1] h-[350px] bg-gradient-to-r from-[#f0faff] to-[#c3e0f7]'></div>
         )}
-        <div className='flex pb-20 mt-20 bg-white gap-10 w-[80%] m-auto shadow-[0px_20px_70px_0px_rgba(38, 42, 76, 0.2)] rounded-[10px]' style={{boxShadow: "0 20px 70px rgba(38, 42, 76, 0.2)"}}>
-            <div className='w-[50%] py-12 px-17'>
+        <div className='flex pb-20 mt-20 bg-white gap-10 w-[92%] sm:w-[80%] m-auto shadow-[0px_20px_70px_0px_rgba(38, 42, 76, 0.2)] rounded-[10px]' style={{boxShadow: "0 20px 70px rgba(38, 42, 76, 0.2)"}}>
+            <div className='w-full md:w-[50%] py-12 px-4 sm:px-17'>
                 <h3 className='text-[#323b7a] text-[22px] poppins-semibold'>Have some questions or want to say hi?</h3>
-                <p className='text-[#455882] text-lg poppins-regular text-center'>Your queries are important to us, reach us anytime for further information.</p>
+                <p className='text-[#455882] text-lg poppins-regular text-left sm:text-center'>Your queries are important to us, reach us anytime for further information.</p>
                 <div className='text-[15px] poppins-medium mt-8 flex flex-col gap-3'>
                     <input type="text" className='rounded-[50px] border border-[#e8e8e8] placeholder:text-[#1e269c] outline-none py-4 px-6 w-full ' placeholder='Enter your name' />
                     <input type="text" className='rounded-[50px] border border-[#e8e8e8] placeholder:text-[#1e269c] outline-none py-4 px-6 w-full ' placeholder='Phone' />
@@ -29,7 +29,7 @@ const QuestionForm = ({hide}) => {
                     <input type="submit" value="Submit" className='rounded-[50px] cursor-pointer bg-[#1f276e] text-[#fff] outline-none py-4 px-9 w-fit' placeholder='Enter your email' />
                 </div>
             </div>
-            <div className='w-[50%] '>
+            <div className='hidden md:flex w-[50%]'>
                 <div  style={{
                     backgroundImage: `url(${tablet})`,
                     backgroundSize: "cover",

@@ -31,7 +31,7 @@ const WhatWeDo = () => {
     ];
 
   return (
-        <section className='w-[80%] m-auto py-24 border-b border-[#e8e8e8]'>
+        <section className='w-[92%] sm:w-[80%] m-auto py-24 border-b border-[#e8e8e8]'>
             <h2 className='poppins-semibold text-[40px] text-[#1f276e] text-center'>WHAT WE DO</h2>
         <p className='poppins-light text-xl text-[#696969] text-center my-4'>Techkyo has a strong global presence, delivering solutions across more than 50 countries. Our engineers, many of whom are multi lingual, range from level 1 through to level 3 across a broad spectrum of vendor technologies and we pride ourselves on being able to assist in almost any situation.</p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center'>

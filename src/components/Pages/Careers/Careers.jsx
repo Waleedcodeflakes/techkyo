@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../Sections/Navbar/Navbar'
 import Footer from '../../Sections/Footer/Footer'
 import { ChevronRight } from 'lucide-react'
-import career from '../../../assets/images/career.jpg'
+import career from '../../../assets/images/career.webp'
 
 const Careers = () => {
   return (

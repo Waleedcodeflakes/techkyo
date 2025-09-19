@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import heroBg from '../../../assets/images/hero-bg.jpg'
+import heroBg from '../../../assets/images/hero-bg.webp'
 import { Typed } from 'react-typed'
 
 // import Typed from "react-typed";
@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="w-full h-full" style={{backgroundColor:'#658cbfbc'}}></div>
         <div className='flex justify-center items-center h-full w-full absolute top-0'>
             <div>
-            <h1 className="poppins-bold text-[70px] text-center text-white">
+            <h1 className="poppins-bold text-[48px] sm:text-[58px] md:text-[70px] text-center text-white">
                 Everything you need.
                 <br />
                 {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}

@@ -10,6 +10,28 @@ import staff from '../../../../assets/images/services/staff.jpg'
 import cyber from '../../../../assets/images/services/cyber.jpg'
 import retail from '../../../../assets/images/services/retail.avif'
 import av from '../../../../assets/images/services/av.avif'
+import ser1 from '../../../../assets/images/services/s1.png'
+import ser2 from '../../../../assets/images/services/s2.png'
+import ser3 from '../../../../assets/images/services/s3.png'
+import ser4 from '../../../../assets/images/services/s4.png'
+import ser5 from '../../../../assets/images/services/s5.png'
+import ser6 from '../../../../assets/images/services/s6.png'
+import ser7 from '../../../../assets/images/services/s7.png'
+import ser8 from '../../../../assets/images/services/s8.png'
+import ser9 from '../../../../assets/images/services/s9.png'
+import ser10 from '../../../../assets/images/services/s10.png'
+import ser11 from '../../../../assets/images/services/s11.png'
+import ser12 from '../../../../assets/images/services/s12.png'
+import ser13 from '../../../../assets/images/services/s13.png'
+import ser14 from '../../../../assets/images/services/s14.png'
+import ser15 from '../../../../assets/images/services/s15.png'
+import ser16 from '../../../../assets/images/services/s16.png'
+import ser17 from '../../../../assets/images/services/s17.png'
+import ser18 from '../../../../assets/images/services/s18.png'
+import ser19 from '../../../../assets/images/services/s19.png'
+import ser20 from '../../../../assets/images/services/s20.png'
+import ser21 from '../../../../assets/images/services/s21.jpg'
+
 import { ArrowRight } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 
@@ -17,6 +39,78 @@ const ServicesData = () => {
 
     const navigate = useNavigate();
     const services = [
+        {
+            title: 'IT Training',
+            desc: 'In today’s technology-driven world, a skilled and knowledgeable team is essential for maintaining efficiency, security, and business growth. Eaze-IT’s IT Training services are designed to upskill your workforce with the latest industry practices, ensuring they are prepared to manage complex IT environments effectively.',
+            link: '#',
+            media: ser1,
+        },
+        {
+            title: 'Project Management And Consulting',
+            desc: 'Our Project Management and Consulting services help businesses deliver projects on time, within budget, and aligned with strategic goals. From initial planning to execution and evaluation, Eaze-IT provides end-to-end guidance, risk management, and hands-on expertise. With structured methodologies and industry best practices, we empower organizations to achieve results with confidence and efficiency.',
+            link: '#',
+            media: ser2,
+        },
+        {
+            title: 'Outsourcing & Remote Staffing',
+            desc: 'Our Outsourcing & Remote Staffing service helps organizations build flexible, skilled, and reliable teams without the overhead of in-house hiring. Whether you need short-term specialists, long-term dedicated staff, or full-function remote teams, Eaze-IT ensures you get top talent tailored to your business needs. With our structured processes, you gain efficiency, cost savings, and the ability to focus on your core operations while we manage the resources.',
+            link: '#',
+            media: ser3,
+        },
+        {
+            title: 'Staffing & Recruitment Solutions',
+            desc: 'Finding the right talent is critical for business growth and sustainability. Without the right people, even the best strategies can fall short. Our Staffing & Recruitment Solutions help organizations attract, hire, and retain the talent they need to succeed. Whether you require temporary staff, permanent hires, or specialized IT professionals, Eaze-IT delivers tailored recruitment strategies that align with your organizational goals.',
+            link: '#',
+            media: ser4,
+        },
+        {
+            title: 'Virtualization Services',
+            desc: 'Modern enterprises demand flexibility, scalability, and cost efficiency in their IT infrastructure. Eaze-IT’s Virtualization Services empower businesses to maximize hardware utilization, reduce costs, and improve operational agility. By consolidating resources and creating virtual environments, we help your business scale seamlessly, respond faster to change, and strengthen overall IT resilience.',
+            link: '#',
+            media: ser5,
+        },
+        {
+            title: 'Secured Warehousing',
+            desc: 'In today’s data-driven world, safeguarding IT hardware and business assets requires more than just physical storage—it demands a secure, compliant, and reliable environment. Eaze-IT’s Secure Warehouse service provides enterprises with a trusted facility for safe equipment storage, inventory management, and disaster recovery preparedness.',
+            link: '#',
+            media: ser6,
+        },
+        {
+            title: 'Software Quality Assurance & Testing',
+            desc: 'In today’s competitive digital landscape, even the smallest software flaws can lead to costly disruptions, security vulnerabilities, or a poor user experience. Our Software Quality Assurance & Testing service ensures your applications meet the highest standards of functionality, performance, and security before reaching your users.',
+            link: '#',
+            media: ser7,
+        },
+        {
+            title: 'IT Hardware Procurement',
+            desc: 'Efficient IT operations start with the right hardware. At Eaze-IT, we simplify IT hardware procurement by sourcing, supplying, and managing the technology your business needs to stay ahead. From servers and storage to networking and end-user devices, we provide reliable hardware tailored to your unique requirements.',
+            link: '#',
+            media: ser8,
+        },
+        {
+            title: 'Web & Application Development',
+            desc: 'Your business deserves more than just an online presence—it needs a digital platform that is secure, scalable, and tailored to your goals. At Eaze-IT, we design and develop websites and applications that power business growth, improve efficiency, and deliver exceptional user experiences.',
+            link: '#',
+            media: ser9,
+        },
+        {
+            title: 'Mobile App Development',
+            desc: 'In today’s mobile-first world, businesses need apps that engage customers, streamline operations, and enable growth. At Eaze-IT, we specialize in building custom mobile applications that combine functionality, security, and user-friendly design—ensuring your business stays connected anytime, anywhere.',
+            link: '#',
+            media: ser10,
+        },
+        {
+            title: 'Custom Software Development',
+            desc: 'In today’s competitive business landscape, off-the-shelf solutions often fail to address unique operational needs. That’s why Eaze-IT provides Custom Software Development designed specifically for your organization. From streamlining processes to enabling growth, our tailored applications deliver efficiency, scalability, and measurable results.',
+            link: '#',
+            media: ser16,
+        },
+        {
+            title: 'Security Operations',
+            desc: 'In today’s digital-first business landscape, cybersecurity is no longer optional—it’s essential. Every second of downtime or vulnerability can expose your business to threats, compliance risks, and financial loss. Eaze-IT’s Security Operations services provide 24/7 monitoring, advanced threat detection, and rapid response to safeguard your IT infrastructure. With continuous coverage, we ensure your business remains secure, compliant, and resilient against evolving cyber threats.',
+            link: '#',
+            media: ser12,
+        },
         {
             title: 'Professional Service',
             desc: 'Bringing Your Vision to Life: Professional AV Installation and Remote Support Services Creating a dynamic and engaging audio-visual experience requires skilled professionals and a seamless integration process. We offer comprehensive AV installation services, coupled with remote IT deployment support, to ensure your project is completed efficiently and according to your specific needs.',
@@ -93,7 +187,7 @@ const ServicesData = () => {
         //     title: '',
         //     desc: '',
         //     link: '#',
-        //     media: serv1,
+        //     media: ser1,
         // },
     ];
   return (
@@ -103,22 +197,22 @@ const ServicesData = () => {
             return (
                 <div className='my-30'>
                 {isEven ? (
-                    <div className='flex items-center gap-10'>
-                        <div className='w-[45%]'>
+                    <div className='block md:flex items-center gap-10'>
+                        <div className='w-full md:w-[45%]'>
                             <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>
                             <button onClick={() => navigate("/contact")} className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
                         </div> 
-                        <div className='w-[55%] max-h-[400px]'>
-                            <img className='rounded-xl' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
+                        <div className='w-full md:w-[55%] max-h-[400px]'>
+                            <img className='rounded-xl w-full h-full' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
                         </div>
                     </div>
                 ) : (
-                    <div className='flex items-center gap-10'>
-                        <div className='w-[55%] max-h-[400px]'>
-                            <img className='rounded-xl' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
+                    <div className='block md:flex items-center gap-10'>
+                        <div className='w-full md:w-[55%] max-h-[400px]'>
+                            <img className='rounded-xl w-full h-full' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
                         </div>
-                        <div className='w-[45%]'>
+                        <div className='w-full md:w-[45%]'>
                             <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>
                             <button onClick={() => navigate("/contact")} className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>

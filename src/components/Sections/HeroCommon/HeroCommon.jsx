@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const HeroCommon = ({ title, url}) => {
   return (
-    <section className='mt-20 w-full'>
+    <section className='mt-16 sm:mt-20 w-full'>
         <div style={{backgroundImage: `url(${herobg})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",

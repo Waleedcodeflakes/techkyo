@@ -23,16 +23,16 @@ const Sectors = () => {
         },
     ];
   return (
-    <section className='w-[93%] m-auto my-20 py-20 rounded-[40px] bg-[#f0f1f5]'>
+    <section className='w-[93%] m-auto my-20 py-10 sm:py-20 rounded-[40px] bg-[#f0f1f5]'>
         {/* <div className='flex gap-10'> */}
-            <div className='w-full px-10 text-center'>
+            <div className='w-full px-3 sm:px-10 text-center'>
                 <h3 className='poppins-semibold text-[40px] text-[#1f276e]'>Sectors</h3>
                 <p className='poppins-regular text-[18px] text-[#455882] py-5 lg:px-40'>Our expertise spans retail, enterprise, data center, carrier network, manufacturing, and government sectors, offering customized solutions to address a wide range of requirements.</p>
                 <div className='flex justify-center mb-10'>
                     <button className='flex items-center cursor-pointer gap-3 poppins-medium text-[15px] bg-[#1f276e] py-3 px-5 rounded-[50px] text-white'>View All <ChevronRight className='w-5 h-5 text-white' /></button>
                 </div>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-3 sm:mx-20'>
                 {sectors.map((s, idx) => (
                     <div key={idx} className='rounded-lg group hover:shadow-[0_8px_90px_4px_rgba(38,42,76,0.1)] shadow-[0_5px_70px_rgba(38,42,76,0.1)] bg-white p-6 flex flex-col items-start justify-between gap-6 h-full'>
                         <div className='flex flex-col gap-6'>

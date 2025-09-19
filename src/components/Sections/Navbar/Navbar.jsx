@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import logo from '../../../assets/images/logoDark.png'
 import { NavLink } from 'react-router-dom'
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Menu } from 'lucide-react';
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(null);
@@ -11,11 +11,11 @@ const Navbar = () => {
     <div className='fixed w-full top-0 z-50 bg-white shadow-md'>
     <section className='w-[90%] m-auto bg-white'>
         <div className='flex justify-between items-center py-4'>
-            <div className='w-[15%]'>
+            <div className='w-[45%] sm:w-[25%] md:w-[15%]'>
                 <img src={logo} alt="icon" />
             </div>
             <nav>
-                <ul className='flex items-center gap-4 poppins-medium'>
+                <ul className='hidden md:flex items-center gap-4 poppins-medium'>
                     <li><NavLink  to="/" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Home</NavLink></li>
                     <li className="relative group">
                         <NavLink to="/company" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Company</NavLink>
@@ -50,6 +50,9 @@ const Navbar = () => {
                     <li><NavLink to="/contact" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Contact</NavLink></li>
                     <li><NavLink to="/contact" className="bg-[#1f276e] px-5 py-3 rounded-[50px] text-white" >Become a Partner</NavLink></li>
                 </ul>
+                <div className='block md:hidden'>
+                    <Menu className='w-8 h-8 text-black' />
+                </div>
             </nav>
         </div>
     </section>
