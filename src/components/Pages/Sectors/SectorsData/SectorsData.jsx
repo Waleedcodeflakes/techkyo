@@ -58,22 +58,22 @@ const SectorsData = () => {
             return (
                 <div className='my-30'>
                 {isEven ? (
-                    <div className='flex items-center gap-10'>
-                        <div className='w-[45%]'>
+                    <div className='block md:flex items-center gap-10'>
+                        <div className='w-full md:w-[45%]'>
                             <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             <p className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5' dangerouslySetInnerHTML={{ __html: s.desc }} />
                             <button onClick={() => navigate("/contact")} className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
                         </div> 
-                        <div className='w-[55%] max-h-[450px]'>
+                        <div className='w-full md:w-[55%] max-h-[450px] mt-4 md:mt-0'>
                             <img className='rounded-xl' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
                         </div>
                     </div>
                 ) : (
-                    <div className='flex items-center gap-10'>
-                        <div className='w-[55%] max-h-[450px]'>
+                    <div className='block md:flex items-center gap-10'>
+                        <div className='w-full md:w-[55%] max-h-[450px] mb-4 md:mb-0'>
                             <img className='rounded-xl' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
                         </div>
-                        <div className='w-[45%]'>
+                        <div className='w-full md:w-[45%]'>
                             <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             <p className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5' dangerouslySetInnerHTML={{ __html: s.desc }} />
                             {/* <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p> */}

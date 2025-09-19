@@ -42,11 +42,11 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='w-full h-screen relative mt-20  bg-cover bg-center' style={{ backgroundImage: `url(${heroBg})` }}>
+    <div className='w-full h-screen relative mt-16 sm:mt-20  bg-cover bg-center' style={{ backgroundImage: `url(${heroBg})` }}>
         <div className="w-full h-full" style={{backgroundColor:'#658cbfbc'}}></div>
         <div className='flex justify-center items-center h-full w-full absolute top-0'>
-            <div>
-            <h1 className="poppins-bold text-[48px] sm:text-[58px] md:text-[70px] text-center text-white">
+            <div className='mx-3'>
+            <h1 className="poppins-semibold sm:poppins-bold text-[44px] sm:text-[58px] md:text-[70px] text-center text-white">
                 Everything you need.
                 <br />
                 {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}

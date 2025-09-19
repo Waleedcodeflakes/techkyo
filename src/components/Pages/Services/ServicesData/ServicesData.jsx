@@ -20,17 +20,8 @@ import ser7 from '../../../../assets/images/services/s7.png'
 import ser8 from '../../../../assets/images/services/s8.png'
 import ser9 from '../../../../assets/images/services/s9.png'
 import ser10 from '../../../../assets/images/services/s10.png'
-import ser11 from '../../../../assets/images/services/s11.png'
 import ser12 from '../../../../assets/images/services/s12.png'
-import ser13 from '../../../../assets/images/services/s13.png'
-import ser14 from '../../../../assets/images/services/s14.png'
-import ser15 from '../../../../assets/images/services/s15.png'
 import ser16 from '../../../../assets/images/services/s16.png'
-import ser17 from '../../../../assets/images/services/s17.png'
-import ser18 from '../../../../assets/images/services/s18.png'
-import ser19 from '../../../../assets/images/services/s19.png'
-import ser20 from '../../../../assets/images/services/s20.png'
-import ser21 from '../../../../assets/images/services/s21.jpg'
 
 import { ArrowRight } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
@@ -203,13 +194,13 @@ const ServicesData = () => {
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>
                             <button onClick={() => navigate("/contact")} className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
                         </div> 
-                        <div className='w-full md:w-[55%] max-h-[400px]'>
+                        <div className='w-full md:w-[55%] max-h-[400px] mt-4 md:mt-0'>
                             <img className='rounded-xl w-full h-full' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
                         </div>
                     </div>
                 ) : (
                     <div className='block md:flex items-center gap-10'>
-                        <div className='w-full md:w-[55%] max-h-[400px]'>
+                        <div className='w-full md:w-[55%] max-h-[400px] mb-4 md:mb-0'>
                             <img className='rounded-xl w-full h-full' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
                         </div>
                         <div className='w-full md:w-[45%]'>

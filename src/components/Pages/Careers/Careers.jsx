@@ -9,16 +9,16 @@ const Careers = () => {
     <div>
         <Navbar/>
         {/* hero */}
-        <section className='mt-10 px-20 w-[92%] flex items-center m-auto h-screen bg-[#f0f1f5] rounded-[50px]'>
+        <section className='mt-10 px-4 sm:px-20 flex items-center m-auto h-screen bg-[#f0f1f5] rounded-[50px]'>
             <div className='flex gap-10 w-full'>
-                <div className='w-[50%]'>
-                    <h1 className='poppins-semibold text-[70px] text-[#1f276e]'>Looking for a new career?</h1>
+                <div className='w-full md:w-[50%]'>
+                    <h1 className='poppins-semibold text-[48px] sm:text-[58px] md:text-[70px] text-[#1f276e]'>Looking for a new career?</h1>
                     <p className='poppins-light text-xl text-[#696969] my-4 pb-5'>What life is like at Techkyo? It's pretty awesome!</p>
                     <button className='w-fit bg-[#1f276e] px-5 py-3 rounded-[50px] text-white poppins-medium flex items-center gap-3'>See positions
                     <ChevronRight className='w-5 h-5 text-white' />
                 </button>
                 </div>
-                <div className='w-[50%] rounded-[12px]' style={{boxShadow: '0 20px 70px rgba(38, 42, 76, 0.2)'}}>
+                <div className='hidden md:flex w-[50%] rounded-[12px]' style={{boxShadow: '0 20px 70px rgba(38, 42, 76, 0.2)'}}>
                     <img src={career} className='rounded-[12px]' alt="career" />
                 </div>
             </div>
