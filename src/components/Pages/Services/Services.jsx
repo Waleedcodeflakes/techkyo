@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div>
         <Navbar/>
-        <HeroCommon/>
+        <HeroCommon title="SERVICES" url="SERVICES"  />
         <ServicesData/>
         <Footer/>
     </div>

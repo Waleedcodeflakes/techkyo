@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <section className='w-full'>
-    <footer className='w-full mt-16 bg-[#004687] px-12 py-18'>
+    <section className='w-full bg-[#004687]'>
+    <footer className='w-[92%] m-auto mt-16 py-18'>
         <img className='w-[15%] my-10' src={logo} alt="" />
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-between items-start'>
             <div className='flex flex-col gap-1'>
@@ -32,7 +32,6 @@ const Footer = () => {
             <div className='flex flex-col gap-3'>
                 <h3 className='text-white poppins-semibold text-base md:text-lg mb-3'>Resources</h3>
                 <ul className='text-[#bdbec7] text-base poppins-medium flex flex-col gap-7'>
-                    <li><Link className='hover:text-white' to="/">Blog</Link></li>
                     <li><Link className='hover:text-white' to="/">Terms and Conditions</Link></li>
                     <li><Link className='hover:text-white' to="/">Privacy Policy</Link></li>
                 </ul>

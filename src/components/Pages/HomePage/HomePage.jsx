@@ -17,7 +17,7 @@ const HomePage = () => {
         <TheCompany/>
         <Sectors/>
         <Coverage/>
-        <QuestionForm/>
+        <QuestionForm hide='true' />
         <Footer/>
     </div>
   )

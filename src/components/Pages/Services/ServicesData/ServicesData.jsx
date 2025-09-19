@@ -11,8 +11,11 @@ import cyber from '../../../../assets/images/services/cyber.jpg'
 import retail from '../../../../assets/images/services/retail.avif'
 import av from '../../../../assets/images/services/av.avif'
 import { ArrowRight } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 const ServicesData = () => {
+
+    const navigate = useNavigate();
     const services = [
         {
             title: 'Professional Service',
@@ -104,7 +107,7 @@ const ServicesData = () => {
                         <div className='w-[45%]'>
                             <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>
-                            <button className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
+                            <button onClick={() => navigate("/contact")} className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
                         </div> 
                         <div className='w-[55%] max-h-[400px]'>
                             <img className='rounded-xl' style={{boxShadow: "0 25px 98px 0 rgba(0, 0, 0, 0.1)"}} src={s.media} alt={s.title} />
@@ -118,7 +121,7 @@ const ServicesData = () => {
                         <div className='w-[45%]'>
                             <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>
-                            <button className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
+                            <button onClick={() => navigate("/contact")} className='text-base cursor-pointer text-[#1f276e] flex items-center gap-2 mt-5 poppins-medium'>Learn More <ArrowRight className='w-5 h-5 text-[#1f276e]' /></button>
                         </div> 
                     </div>
                 )}

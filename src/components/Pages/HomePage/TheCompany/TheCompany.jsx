@@ -2,32 +2,11 @@ import React from 'react'
 import company from '../../../../assets/images/thecompany.jpg'
 
 const TheCompany = () => {
-    const rows = 10;   // number of rows
-  const cols = 10;  // number of dots per row
 
   return (
     <section className='w-[80%] m-auto my-20'>
         <div className='flex gap-10 w-full'>
             <div className='w-[50%] flex items-center'>
-                 {/* <div
-                    className="absolute z-0"
-                    style={{
-                        left: "-45px",
-                        bottom: "-160px",
-                        width: "340px",
-                        height: "173px",
-                    }}
-                    >
-                    <div className="grid grid-rows-10 grid-cols-10 gap-4">
-                        {Array.from({ length: rows * cols }).map((_, i) => (
-                        <div
-                            key={i}
-                            className="w-1 h-1 rounded-full bg-[#1f276e]"
-                        ></div>
-                        ))}
-                    </div>
-                    </div> */}
-                    {/* top right */}
                 <img className='relative z-4 rounded-[12px]' src={company} alt="image" style={{boxShadow: "0 20px 70px rgba(38, 42, 76, 0.2)"}} />
             </div>
             <div className='w-[50%] flex flex-col gap-10'>
