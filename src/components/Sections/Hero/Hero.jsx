@@ -42,7 +42,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='w-full h-screen relative mt-16 sm:mt-20  bg-cover bg-center' style={{ backgroundImage: `url(${heroBg})` }}>
+    <div className='w-full h-screen relative mt-16 sm:mt-14 md:mt-20  bg-cover bg-center' style={{ backgroundImage: `url(${heroBg})` }}>
         <div className="w-full h-full" style={{backgroundColor:'#658cbfbc'}}></div>
         <div className='flex justify-center items-center h-full w-full absolute top-0'>
             <div className='mx-3'>
