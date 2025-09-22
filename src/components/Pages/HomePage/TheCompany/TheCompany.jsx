@@ -1,5 +1,5 @@
 import React from 'react'
-import company from '../../../../assets/images/thecompany.jpg'
+import company from '../../../../assets/images/thecompany2.jpg'
 
 const TheCompany = () => {
 

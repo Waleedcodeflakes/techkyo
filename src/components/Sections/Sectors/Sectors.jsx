@@ -1,7 +1,9 @@
 import { Building, ChevronRight, HardDrive, LucideHouse, ShoppingCart } from 'lucide-react';
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Sectors = () => {
+    const navigate  = useNavigate();
     const sectors = [
         {
             icon: <ShoppingCart className='w-10 h-10 text-[#1f276e]' />,
@@ -42,7 +44,7 @@ const Sectors = () => {
                             <h2 className='poppins-semibold text-[22px] text-[#1f276e]'>{s.title}</h2>
                             <p className='poppins-regular text-[15px] text-[#696969]'>{s.desc}</p>
                         </div>
-                        <button className='poppins-medium cursor-pointer text-[15px] group-hover:text-[#1f276e] text-[#b0b0b0]' style={{justifySelf: 'end'}}>Learn More</button>
+                        <button onClick={() => navigate('/sectors')} className='poppins-medium cursor-pointer text-[15px] group-hover:text-[#1f276e] text-[#b0b0b0]' style={{justifySelf: 'end'}}>Learn More</button>
                     </div>
                 ))}
             </div>

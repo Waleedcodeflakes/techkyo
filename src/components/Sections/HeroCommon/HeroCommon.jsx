@@ -1,5 +1,5 @@
 import React from 'react'
-import herobg from '../../../assets/images/services/services.webp'
+import herobg from '../../../assets/images/services/services.jpg'
 import { ChevronRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 

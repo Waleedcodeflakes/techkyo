@@ -1,5 +1,5 @@
 import React from 'react'
-import maps from '../../../../assets/images/map.jpg'
+import maps from '../../../../assets/images/map-text.png'
 import clients1 from '../../../../assets/images/apc.png'
 import clients2 from '../../../../assets/images/deckers.png'
 import clients3 from '../../../../assets/images/crocs.png'
@@ -11,24 +11,29 @@ const Coverage = () => {
 
     const coverage = [
     {
-        text: "JAPAN",
+        text: "NORTH AMERICA",
         width: 85,
+        color: '#a3811c',
     },
     {
-        text: "PAKISTAN",
+        text: "LATAM",
         width: 75,
+        color: '#204231',
     },
     {
         text: "EMEA",
         width: 100,
+        color: '#3651a3',
     },
     {
         text: "APAC",
         width: 65,
+        color: '#633d20',
     },
     {
-        text: "AUSTRALIA",
+        text: "JAPAN",
         width: 75,
+        color: '#5fad9f',
     }
     ]
     const clients = [clients1, clients2, clients3, clients4, clients5, clients6]
@@ -46,7 +51,7 @@ const Coverage = () => {
             <div className='w-full mt-7 sm:mt-0 sm:w-[30%]'>
                 {coverage.map((c, idx) => (
                 <div key={idx} className='flex flex-col relative gap-5 mb-4 w-full rounded-[3px] bg-[#f7f7f7]' style={{boxShadow: "0 1px 2px rgba(0, 0, 0, .1) inset"}}>
-                    <div className={`bg-[#0074cc] h-full absolute top-0 left-0 z-[1]`} style={{width: `${c.width}%`}}></div>
+                    <div className={`bg-[#0074cc] h-full absolute top-0 left-0 z-[1]`} style={{width: `${c.width}%`, background: `${c.color}`}}></div>
                     <p className='poppins-regular text-[13px] px-4 py-3 text-white relative z-3'>{c.text}</p>
                 </div>
                 ))}
