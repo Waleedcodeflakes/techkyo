@@ -1,8 +1,10 @@
 import React from 'react'
 import { ArrowRight, Cable, GraduationCap, Handshake, Layers, MonitorSmartphone, Server, ShieldCheck, Wifi } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const WhatWeDo = () => {
 
+    const navigate = useNavigate();
     const services = [
         {
             icon: <Handshake className='w-10 h-10 text-[#fff]' />,
@@ -36,7 +38,7 @@ const WhatWeDo = () => {
         },
         {
             icon: <ShieldCheck className='w-10 h-10 text-[#fff]' />,
-            title: 'CYbersecurity',
+            title: 'Cybersecurity',
             desc: 'Optimize Your Wireless Network with Ekahau Surveys -Performed by a Certified Partner Looking to improve your Wi-Fi performance? We’re a proud official partner of ..',
             link: '#'
         },
@@ -66,7 +68,7 @@ const WhatWeDo = () => {
                         <h3 className='poppins-medium text-xl text-white text-center'>{s.title}</h3>
                         <h4 className='poppins-light text-base text-white text-center'>{s.desc}</h4>
                     </div>
-                    <button className='poppins-medium group mt-3 text-base cursor-pointer text-white text-center flex items-center gap-2'>Read More <ArrowRight className='w-5 h-5 text-[#fff] group-hover:transform-110 transiton-all duration-200' /></button>
+                    <button onClick={() => navigate('/services')} className='poppins-medium group mt-3 text-base cursor-pointer text-white text-center flex items-center gap-2'>Read More <ArrowRight className='w-5 h-5 text-[#fff] group-hover:transform-110 transiton-all duration-200' /></button>
                 </div>
             ))}
         </div>

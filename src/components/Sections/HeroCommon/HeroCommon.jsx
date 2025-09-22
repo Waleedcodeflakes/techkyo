@@ -11,7 +11,8 @@ const HeroCommon = ({ title, url}) => {
                     backgroundPosition: "center",
                     }} 
                 className='w-full h-[350px] relative'>
-        <div className="w-full h-full" style={{backgroundColor:'#658cbfbc'}}></div>
+        {/* <div className="w-full h-full" style={{backgroundColor:'#658cbfbc'}}></div> */}
+        <div className="w-full h-full" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}></div>
         <div className='flex flex-col justify-center items-center h-full w-full absolute top-0'>
             <h2 className='text-[42px] poppins-semibold text-white'>{title}</h2>
             <div className='flex items-center gap-3'>

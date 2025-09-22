@@ -10,13 +10,9 @@ body {
 textarea {
   resize: none;
 }
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
-*{
-  scrollbar-width: none;
-}
-
+} */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;

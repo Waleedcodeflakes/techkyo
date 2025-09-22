@@ -29,7 +29,8 @@ const Hero = () => {
 
   return (
     <div className='w-full h-screen relative mt-16 sm:mt-14 md:mt-20  bg-cover bg-center' style={{ backgroundImage: `url(${heroBg})` }}>
-        <div className="w-full h-full" style={{backgroundColor:'#658cbfaa'}}></div>
+        {/* <div className="w-full h-full" style={{backgroundColor:'#658cbfaa'}}></div> */}
+        <div className="w-full h-full" style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}></div>
         <div className='flex justify-center items-center h-full w-full absolute top-0'>
             <div className='mx-3'>
             <h1 className="poppins-semibold sm:poppins-bold text-[44px] sm:text-[58px] md:text-[70px] text-center text-white">

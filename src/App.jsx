@@ -7,6 +7,7 @@ import Company from './components/Pages/Company/Company';
 import Careers from './components/Pages/Careers/Careers';
 import Contact from './components/Pages/Contact/Contact';
 import Sectors from './components/Pages/Sectors/Sectors';
+import { TitleUpdater } from './components/Pages/TitleUpdater';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,7 +35,7 @@ function App() {
         <Route path='/careers' element={<Careers />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-      {/* <TitleUpdater/> */}
+      <TitleUpdater/>
     </Router>
   )
 }
