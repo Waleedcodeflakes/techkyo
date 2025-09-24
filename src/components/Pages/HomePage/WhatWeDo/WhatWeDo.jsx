@@ -1,10 +1,11 @@
-import React from 'react'
-import { ArrowRight, Cable, GraduationCap, Handshake, Layers, MonitorSmartphone, Server, ShieldCheck, Wifi } from 'lucide-react';
+import React,{useState} from 'react'
+import { ArrowRight, Cable, ChevronDown, ChevronUp, GraduationCap, Handshake, Layers, MonitorSmartphone, Server, ShieldCheck, Wifi } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const WhatWeDo = () => {
 
     const navigate = useNavigate();
+        const [showAll, setShowAll] = useState(false);
     const services = [
         {
             icon: <Handshake className='w-10 h-10 text-[#fff]' />,
@@ -56,12 +57,14 @@ const WhatWeDo = () => {
         },
     ];
 
+  const visibleCards = showAll ? services : services.slice(0, 4);
+
   return (
         <section className='w-[92%] sm:w-[80%] m-auto py-24 border-b border-[#e8e8e8]'>
             <h2 className='poppins-semibold text-[40px] text-[#1f276e] text-center'>WHAT WE DO</h2>
         <p className='poppins-light text-xl text-[#696969] text-center my-4'>Techkyo has a strong global presence, delivering solutions across more than 50 countries. Our engineers, many of whom are multi lingual, range from level 1 through to level 3 across a broad spectrum of vendor technologies and we pride ourselves on being able to assist in almost any situation.</p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center mt-6'>
-            {services.map((s, idx) => (
+            {visibleCards.map((s, idx) => (
                 <div key={idx} className='py-8 px-3 bg-[#1e236b] rounded-lg flex flex-col items-center justify-between gap-5'>
                     <div className='flex flex-col gap-5'>
                         <div className='flex items-center justify-center'>{s.icon}</div>
@@ -71,6 +74,15 @@ const WhatWeDo = () => {
                     <button onClick={() => navigate('/services')} className='poppins-medium group mt-3 text-base cursor-pointer text-white text-center flex items-center gap-2'>Read More <ArrowRight className='w-5 h-5 text-[#fff] group-hover:transform-110 transiton-all duration-200' /></button>
                 </div>
             ))}
+        </div>
+        <div className='w-full flex justify-center mt-9'>
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="px-5 py-3 flex poppins-medium text-[15px] text-center border rounded-[50px] bg-[#1e236b] text-[#fff] "
+        >
+          {showAll ? 'Show Less' : 'Show More'}
+          {showAll ? <ChevronUp className='w-5 -5 text-white' /> : <ChevronDown className='w-5 -5 text-white' />}
+        </button>
         </div>
     </section>
   )

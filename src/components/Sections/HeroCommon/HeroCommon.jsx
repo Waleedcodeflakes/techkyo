@@ -22,7 +22,6 @@ const HeroCommon = ({ title, url}) => {
             <ChevronRight className='w-5 h-5 text-base text-[#fff]' />
             <Link className='poppins-medium text-base text-[#fff]' to="#">{url}</Link>
             </div>
-            {/* <p className='text-[20px] poppins-medium text-white w-[60%] text-center'>Backed by a team of experienced professionals, our strategic services meet the needs of all types and sizes of clients - from small startups to large firms - and deliver lasting changes with measurable growth. Please get in touch with us today to learn how Gaichu Managed Services can help your future success.</p> */}
         </div>
         </div>
     </section>

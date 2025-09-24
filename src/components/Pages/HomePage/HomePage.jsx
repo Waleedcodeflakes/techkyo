@@ -7,6 +7,7 @@ import Sectors from '../../Sections/Sectors/Sectors'
 import Coverage from './Coverage/Coverage'
 import QuestionForm from './QuestionForm/QuestionForm'
 import Footer from '../../Sections/Footer/Footer'
+import Whatsapp from '../../Sections/whatsapp'
 
 const HomePage = () => {
   return (

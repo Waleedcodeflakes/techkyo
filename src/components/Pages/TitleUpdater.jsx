@@ -9,6 +9,7 @@ const titles = {
   "/careers": "Techkyo | Careers",
   "/contact": "Techkyo | Contact",
   "/free-audit": "Techkyo | Free Audit",
+  "/techkyo-worldwide": "Techkyo | Techkyo Worldwide",
 };
 
 export function TitleUpdater() {

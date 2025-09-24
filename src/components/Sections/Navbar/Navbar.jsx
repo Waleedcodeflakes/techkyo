@@ -4,39 +4,37 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 import { NavLink } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react';
+import SocialLinks from './SocialLinks';
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(null);
     const [menuBar, setMenuBar] = useState(false)
 
-    // const sectors = ["Retail", "Enterprise", "Datacenter Services", "Carrier Network", "Manufacturing", "Government", "Healthcare", "Education", "Banking & Financial Services", "Logistics & Transportation", "Hospitality", "Telecommunications", "Non-Profit Organizations", "Construction & Real Estate", "Pharmaceuticals & Life Sciences"];
-
     const sectorCategories = {
-  "Commercial & Consumer": [
-    "Retail",
-    "Hospitality",
-    "Construction & Real Estate",
-    "Manufacturing"
-  ],
-  "Corporate & Enterprise": [
-    "Enterprise",
-    "Datacenter Services",
-    "Carrier Network",
-    "Telecommunications",
-    "Logistics & Transportation"
-  ],
-  "Public Sector & Institutions": [
-    "Government",
-    "Education",
-    "Healthcare",
-    "Non-Profit Organizations"
-  ],
-  "Finance & Regulated Industries": [
-    "Banking & Financial Services",
-    "Pharmaceuticals & Life Sciences",
-    "Energy & Utilities" // if you also want to include Energy from earlier
-  ]
-};
+        "Commercial & Consumer": [
+            "Retail",
+            "Hospitality",
+            "Construction & Real Estate",
+            "Manufacturing"
+        ],
+        "Corporate & Enterprise": [
+            "Enterprise",
+            "Datacenter Services",
+            "Carrier Network",
+            "Telecommunications",
+            "Logistics & Transportation"
+        ],
+        "Public Sector & Institutions": [
+            "Government",
+            "Education",
+            "Healthcare",
+            "Non-Profit Organizations"
+        ],
+        "Finance & Regulated Industries": [
+            "Banking & Financial Services",
+            "Pharmaceuticals & Life Sciences",
+        ]
+        };
 
     const serviceCategories = {
         "IT Infrastructure": [
@@ -76,6 +74,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full top-0 z-50 bg-white shadow-md'>
+        <SocialLinks/>
     <section className='w-[90%] m-auto bg-white'>
         <div className='flex justify-between items-center py-4'>
             <div className='w-[45%] sm:w-[25%] md:w-[15%]'>
@@ -85,31 +84,13 @@ const Navbar = () => {
                 <ul className='hidden md:flex items-center gap-4 poppins-medium'>
                     <li><NavLink  to="/" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Home</NavLink></li>
                     <li className="relative group">
-                        <NavLink to="/company" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Company</NavLink>
+                        <NavLink to="/company" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>About us</NavLink>
                     </li>
                     <li 
                     className="relative"
                     onMouseEnter={() => setOpenMenu("services")}
                     onMouseLeave={() => setOpenMenu(null)}
                     ><NavLink to="/services" className={({ isActive }) =>`flex items-center gap-2 text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Services <ChevronDown className='w-5 h-5 hover:text-[#031359] text-[#1f276e]' /> </NavLink>
-                    
-                    {/* Popup */}
-                    {/* {openMenu === "services" && (
-                    <div className="absolute left-0 top-full mt-2 w-48 bg-white shadow-lg rounded-lg z-50">
-                        <ul className="py-2">
-                            {services.map((s) => (
-                            <li key={s}>
-                            <NavLink
-                            to="/service"
-                                className="hover:bg-[#f0f0f0] hover:border-l-[2px] poppins-medium hover:border-black block px-4 py-2 text-sm text-[#1f276e] hover:text-[#031359]"
-                            >
-                            {s}
-                            </NavLink>
-                            </li>
-                            ))}
-                        </ul>
-                    </div>
-                    )} */}
                     {openMenu === "services" && (
                         <div className="absolute left-0 top-[40px] mt-2 w-64 bg-white shadow-lg rounded-lg z-50">
                             <ul className="py-2">
@@ -180,6 +161,7 @@ const Navbar = () => {
                         )}
 
                     </li>
+                    <li><NavLink to="/techkyo-worldwide" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Techkyo Worldwide</NavLink></li>
                     <li><NavLink to="/careers" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Careers</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Contact</NavLink></li>
                     <li><NavLink to="/contact" className="bg-[#1f276e] px-5 py-3 rounded-[50px] text-white" >Become a Partner</NavLink></li>

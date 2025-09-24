@@ -3,11 +3,23 @@ import company from '../../../../assets/images/thecompany2.jpg'
 
 const TheCompany = () => {
 
+  const rows = 8;   // number of rows
+  const cols = 8;  // number of dots per row
   return (
     <section className='w-[92%] sm:w-[80%] m-auto my-20'>
-        <div className='block md:flex gap-10 w-full'>
-            <div className='hidden w-[50%] sm:flex items-center'>
-                <img className='relative z-4 rounded-[12px]' src={company} alt="image" style={{boxShadow: "0 20px 70px rgba(38, 42, 76, 0.2)"}} />
+        <div className='block md:flex gap-10 w-full '>
+            <div className='hidden w-[50%] sm:flex items-center relative'>
+              <div className="absolute" style={{ right: "0px", top: "0px", width: "240px", height: "173px", }}>
+                <div className="grid grid-rows-8 grid-cols-8 gap-4">
+                  {Array.from({ length: rows * cols }).map((_, i) => (
+                    <div
+                      key={i}
+                      className="w-[4px] h-[4px] rounded-full bg-[#1f276e]"
+                    ></div>
+                  ))}
+                </div>
+              </div>
+                <img className='relative w-[80%] z-4 rounded-[12px]' src={company} alt="image" style={{boxShadow: "0 20px 70px rgba(38, 42, 76, 0.2)"}} />
             </div>
             <div className='w-full md:w-[50%] flex flex-col gap-10 text-center sm:text-left'>
                 <h2 className='poppins-semibold text-[40px] text-[#1f276e]'>THE COMPANY</h2>

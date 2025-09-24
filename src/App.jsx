@@ -8,6 +8,10 @@ import Careers from './components/Pages/Careers/Careers';
 import Contact from './components/Pages/Contact/Contact';
 import Sectors from './components/Pages/Sectors/Sectors';
 import { TitleUpdater } from './components/Pages/TitleUpdater';
+import TechkyoWorldwide from './components/Pages/TechkyoWorldwide/TechkyoWorldwide';
+import Partners from './components/Pages/Partners/Partners';
+import Whatsapp from './components/Sections/whatsapp';
+import ServicesSubPage from './components/Pages/Services/ServicesSubPage/ServicesSubPage';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -30,11 +34,15 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/services' element={<Services/>} />
+        <Route path='/services/:id' element={<ServicesSubPage/>} />
         <Route path='/company' element={<Company />} />
         <Route path='/sectors' element={<Sectors />} />
         <Route path='/careers' element={<Careers />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/techkyo-worldwide' element={<TechkyoWorldwide />} />
+        <Route path='/partners' element={<Partners />} />
       </Routes>
+      <Whatsapp/>
       <TitleUpdater/>
     </Router>
   )
