@@ -1,4 +1,4 @@
-import services  from "../ServicesData/ServicesData2";
+import {services}  from "../ServicesData/ServicesData2";
 import { useParams } from "react-router-dom";
 
 export default function ServicesSubPage() {
