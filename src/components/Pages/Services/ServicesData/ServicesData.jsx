@@ -1,5 +1,6 @@
 import React from 'react'
-import { services } from './servicesData2';
+import { services } from './ServicesData2';
+// import services  from './servicesData2';
 
 import { ArrowRight } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
