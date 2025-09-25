@@ -35,7 +35,7 @@ const ServicesData = () => {
             return (
                 <div className='my-30'>
                 {isEven ? (
-                    <div
+                    <div key={idx} 
                     ref={(el) => (refs.current[s.title] = el)} // store ref
                     className='block md:flex items-center gap-10'>
                         <div className='w-full md:w-[45%]'>
@@ -48,7 +48,7 @@ const ServicesData = () => {
                         </div>
                     </div>
                 ) : (
-                    <div
+                    <div key={idx} 
                     ref={(el) => (refs.current[s.title] = el)} // store ref
                     className='block md:flex items-center gap-10'>
                         <div className='w-full md:w-[55%] max-h-[400px] mb-4 md:mb-0'>

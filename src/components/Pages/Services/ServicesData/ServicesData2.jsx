@@ -33,24 +33,30 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We partner with you to deliver tailored IT and AV solutions, ensuring seamless integration and optimal performance for your business needs.",
           points: [
+            {title: 'Our AV Installation Services:'},
             {
-              heading: "Consulting and Planning",
-              content: "Our experts assess your needs and design customized IT and AV solutions to meet your goals and budget."
-            },
-            {
-              heading: "System Integration",
-              content: "We integrate IT and AV systems for a cohesive, user-friendly experience across your infrastructure."
-            },
-            {
-              heading: "Project Management",
-              content: "We manage every phase of your project, from planning to execution, ensuring timely and high-quality delivery."
-            },
+        heading: "Strategic Consulting",
+        content: "Our team conducts thorough assessments to understand your business needs, designing tailored IT and AV strategies with optimal hardware and software selections to ensure scalability, efficiency, and alignment with your goals."
+      },
+      {
+        heading: "System Integration",
+        content: "We seamlessly integrate IT and AV systems with your existing infrastructure, ensuring smooth connectivity, compatibility, and user-friendly operations across all platforms."
+      },
+      {
+        heading: "End-to-End Project Management",
+        content: "We manage every phase of your project, from planning to execution, coordinating resources and timelines to deliver high-quality results on schedule."
+      },
+      {
+        heading: "Remote Consulting",
+        content: "Our experts provide remote guidance for system setups, upgrades, and optimizations, offering flexible support to minimize costs and downtime."
+      },
             {
               heading: "Remote Support",
               content: "Our remote services provide expert guidance and troubleshooting for efficient issue resolution."
             }
           ],
           troubleshooting: [
+            {title: 'Remote IT Deployment Support:'},
             {
               heading: "System Diagnostics",
               content: "We identify and resolve issues in IT and AV systems to ensure smooth operations."
@@ -76,70 +82,6 @@ import ser16 from '../../../../assets/images/services/s11.png'
           ]
         }
       },
-        // {
-        //     title: 'Professional Service',
-        //     desc: 'Bringing Your Vision to Life: Professional AV Installation and Remote Support Services Creating a dynamic and engaging audio-visual experience requires skilled professionals and a seamless integration process. We offer comprehensive AV installation services, coupled with remote IT deployment support, to ensure your project is completed efficiently and according to your specific needs.',
-        //     link: '#',
-        //     media: serv1,
-        // },
-        {
-    id: "network-support",
-    title: "Network Support",
-    desc: "Maintaining a robust and reliable network infrastructure is essential for any business today. We offer a comprehensive suite of services to keep your network running smoothly, from planning and installation to troubleshooting and maintenance. Here’s how our team of experts can support your IT needs:",
-    media: serv1,
-    heroImage: serv1,
-    detailed: {
-      intro: "Network Infrastructure Services:",
-      points: [
-        {
-          heading: "Network Design and Planning",
-          content: "We collaborate with you to design a network infrastructure that meets your current and future business needs. This includes selecting the right hardware (servers, switches, patch panels, fiber optic and patch cables), and Power Distribution Units (PDUs) to ensure optimal performance and scalability."
-        },
-        {
-          heading: "Network Installation",
-          content: "Our skilled technicians will handle the installation of your network hardware, ensuring proper configuration and connectivity."
-        },
-        {
-          heading: "Network Migration",
-          content: "We can seamlessly migrate your network to a new infrastructure or technology, minimizing downtime and ensuring a smooth transition."
-        },
-        {
-          heading: "Network Device Replacement",
-          content: "Upgrade outdated network devices with newer, more efficient models to improve performance, security, and scalability."
-        },
-        {
-          heading: "Switches and Access Point (AP) Installation:",
-          content: "Expand or optimize your network by installing switches for efficient data flow and access points for wider Wi-Fi coverage."
-        },
-      ],
-      head: "Network Troubleshooting and Support:",
-      troubleshooting: [
-        {
-          heading: "LAN Troubleshooting",
-          content: "Diagnose and resolve any Local Area Network (LAN) issues you encounter, such as slow speeds, connectivity problems, or security breaches."
-        },
-        {
-          heading: "Hardware Troubleshooting",
-          content: "Our team can identify and fix malfunctions in network hardware like servers, routers, switches, patch panels, and cabling (fiber optic and patch cables)."
-        }
-      ],
-      whyChooseUs: [
-        {
-            heading: 'Certified Expertise:',
-            content: 'Our team is highly skilled and experienced in all aspects of network infrastructure, from hardware selection to troubleshooting and maintenance.'
-        },
-        {
-            heading: 'Minimized Downtime:',
-            content: 'We understand the importance of keeping your network operational. We work efficiently to minimize downtime during migrations or installations.'
-        },
-        {
-            heading: 'Custom Solutions:',
-            content: 'We take the time to understand your specific needs and design a network solution that perfectly fits your business.'
-        },
-      ]
-    }
-  },
-
          {
         id: "helpdesk-solutions",
         title: "Helpdesk Solutions",
@@ -150,24 +92,26 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "Our helpdesk services provide fast, reliable support to keep your IT systems running smoothly and minimize disruptions.",
           points: [
-            {
-              heading: "24/7 Support",
-              content: "Our helpdesk offers round-the-clock assistance for IT issues, ensuring minimal downtime."
-            },
-            {
-              heading: "Ticketing System",
-              content: "We use efficient ticketing systems to track and resolve issues promptly."
-            },
-            {
-              heading: "Remote Assistance",
-              content: "Our technicians provide remote support to diagnose and fix problems quickly."
-            },
-            {
-              heading: "User Training",
-              content: "We offer training to help your team navigate IT systems effectively."
-            }
+          {title: "Our Support Desk Services:"},
+           {
+        heading: "24/7 Support",
+        content: "Our helpdesk provides round-the-clock assistance, resolving IT issues promptly to ensure uninterrupted business operations and user productivity."
+      },
+      {
+        heading: "Ticketing System",
+        content: "We utilize advanced ticketing systems to track, prioritize, and resolve issues efficiently, providing transparency and fast response times."
+      },
+      {
+        heading: "Remote Assistance",
+        content: "Our technicians deliver remote troubleshooting and support, diagnosing and fixing problems quickly to minimize disruptions for end-users."
+      },
+      {
+        heading: "User Training",
+        content: "We offer tailored training sessions to empower your team with the skills to navigate IT systems effectively, enhancing productivity and confidence."
+      }
           ],
           troubleshooting: [
+          {title: "Helpdesk Resolution Services:"},
             {
               heading: "Issue Diagnostics",
               content: "We identify and resolve IT issues quickly to restore system functionality."
@@ -193,13 +137,6 @@ import ser16 from '../../../../assets/images/services/s11.png'
           ]
         }
       },
-        // {
-        //     title: 'Helpdesk Solutions',
-        //     desc: "Techkyo offers 24/7 NOC and Helpdesk Solutions, providing cost-effective IT support services. Our NOC team consists of project managers and support staff who manage IT related problems providing proactive monitoring, troubleshooting, triage, resource identification, parts numbers, and action plans. Techkyo's support teams are on hand 24/7, ensuring customer satisfaction.",
-        //     link: '#',
-        //     media: serv3,
-        // },
-
         {
         id: "datacenter-services",
         title: "Datacenter Services",
@@ -210,24 +147,27 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We design, deploy, and maintain datacenter solutions to ensure reliable, scalable, and efficient operations.",
           points: [
+          {title: "Our Datacenter Expertise:"},
+
             {
               heading: "Server Installation",
-              content: "We set up and configure servers for optimal performance and reliability."
+              content: "We install and configure servers with precision, ensuring optimal performance, reliability, and compatibility with your datacenter infrastructure."
             },
             {
               heading: "Datacenter Design",
-              content: "Our team designs scalable datacenter layouts tailored to your needs."
+              content: "Our experts create scalable, energy-efficient datacenter layouts, selecting hardware and configurations to meet your current and future operational needs."
             },
             {
               heading: "Maintenance Services",
-              content: "We provide ongoing maintenance to keep your datacenter running smoothly."
+              content: "We provide proactive maintenance, including regular updates and inspections, to ensure your datacenter operates at peak performance with minimal downtime."
             },
             {
               heading: "Migration Support",
-              content: "We assist with seamless data and system migrations to new datacenters."
+              content: "We manage seamless data and system migrations to new or upgraded datacenters, minimizing disruptions and ensuring data integrity."
             }
           ],
           troubleshooting: [
+          {title: "Datacenter Maintenance Services:"},
             {
               heading: "Server Diagnostics",
               content: "We identify and fix server issues to ensure uninterrupted operations."
@@ -263,24 +203,26 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We assess and optimize your wireless network to ensure strong, reliable connectivity across your facility.",
           points: [
+            {title: "Our Wireless Assessment Services:"},
             {
               heading: "Site Surveys",
-              content: "We conduct detailed assessments to map out optimal wireless coverage."
+              content: "We conduct detailed site assessments to map out optimal wireless coverage, identifying signal strengths and potential interference sources for robust connectivity."
             },
             {
               heading: "Network Planning",
-              content: "Our experts design wireless networks for strong, reliable connectivity."
+              content: "Our team designs wireless networks tailored to your facility, ensuring strong, reliable connectivity and scalability for future growth."
             },
             {
               heading: "Performance Testing",
-              content: "We test and optimize your wireless network for speed and reliability."
+              content: "We rigorously test your wireless network for speed, stability, and coverage, optimizing performance to meet your business demands."
             },
             {
               heading: "Access Point Setup",
-              content: "We install and configure access points for wider Wi-Fi coverage."
+              content: "We install and configure access points to expand Wi-Fi coverage, ensuring seamless connectivity across your entire workspace."
             }
           ],
           troubleshooting: [
+          {title: "Wi-Fi Optimization Services:"},
             {
               heading: "Signal Issues",
               content: "We diagnose and resolve weak signal or connectivity problems."
@@ -316,28 +258,26 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We collaborate with you to design a network infrastructure that meets your current and future business needs, ensuring optimal performance and scalability.",
           points: [
+          {title: "Our Network Solutions:"},
             {
               heading: "Network Design and Planning",
-              content: "We design network infrastructure with the right hardware (servers, switches, patch panels, cables) and PDUs for performance and scalability."
+              content: "We collaborate with you to design a network infrastructure with optimal hardware (servers, switches, cables) and PDUs, ensuring high performance and scalability."
             },
             {
               heading: "Network Installation",
-              content: "Our skilled technicians handle the installation of network hardware, ensuring proper configuration and connectivity."
+              content: "Our skilled technicians handle the installation of network hardware, ensuring precise configuration and reliable connectivity across your infrastructure."
             },
             {
               heading: "Network Migration",
-              content: "We seamlessly migrate your network to new infrastructure, minimizing downtime and ensuring a smooth transition."
+              content: "We execute seamless migrations to new network infrastructure, minimizing downtime and ensuring a smooth transition with data integrity."
             },
             {
               heading: "Device Replacement",
-              content: "We upgrade outdated network devices to improve performance, security, and scalability."
-            },
-            {
-              heading: "Switches and AP Installation",
-              content: "We install switches and access points to optimize data flow and Wi-Fi coverage."
+              content: "We upgrade outdated network devices with modern, efficient models to enhance performance, security, and scalability."
             }
           ],
           troubleshooting: [
+          {title: "Network Recovery Services:"},
             {
               heading: "LAN Troubleshooting",
               content: "We diagnose and resolve LAN issues like slow speeds, connectivity problems, or security breaches."
@@ -368,28 +308,31 @@ import ser16 from '../../../../assets/images/services/s11.png'
         title: "Structured Cabling",
         desc: 'A well-designed and organized network cabling system is the backbone of any successful IT infrastructure. It provides a reliable foundation for data transmission, voice communication, and security systems. Our team of experts offers a comprehensive range of cabling and connectivity solutions to meet your specific needs.',
             media: structure,
+            heroImage: structure,
         hero: "Building Strong Foundations: Expert Structured Cabling Services",
         detailed: {
           intro: "We design and install structured cabling systems to ensure reliable data and voice connectivity for your business.",
           points: [
-            {
+            {title: "Our Cabling Installations:"},
+           {
               heading: "Cabling Installation",
-              content: "We install structured cabling systems for seamless data and voice connectivity."
+              content: "We design and install structured cabling systems, including fiber optic and copper solutions, to ensure seamless data and voice connectivity across your organization."
             },
             {
               heading: "Cable Management",
-              content: "Our team ensures organized cabling layouts for easy maintenance and scalability."
+              content: "Our team organizes cabling layouts meticulously, using best practices to ensure easy maintenance, scalability, and minimal interference for optimal performance."
             },
             {
               heading: "Testing and Certification",
-              content: "We test and certify cabling systems to meet industry standards."
+              content: "We rigorously test and certify cabling systems to comply with industry standards, ensuring reliable, high-speed connectivity and long-term durability."
             },
             {
               heading: "Cabling Upgrades",
-              content: "We upgrade outdated cabling to improve performance and reliability."
+              content: "We replace outdated cabling with advanced solutions, improving network performance, reliability, and compatibility with modern technologies."
             }
           ],
           troubleshooting: [
+          {title: "Cable System Support:"},
             {
               heading: "Cable Diagnostics",
               content: "We identify and resolve issues in cabling systems to ensure connectivity."
@@ -425,24 +368,27 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We deploy virtualization solutions to optimize resources, reduce costs, and enhance system flexibility.",
           points: [
-            {
+            {title: "Our Virtualization Capabilities:"},
+           {
               heading: "Virtual Machine Setup",
-              content: "We configure virtual machines to optimize resource usage and performance."
+              content: "We configure virtual machines using platforms like VMware and Hyper-V, optimizing resource allocation for enhanced performance and efficiency."
             },
             {
               heading: "Server Virtualization",
-              content: "We consolidate servers to reduce costs and improve efficiency."
+              content: "Our team consolidates physical servers into virtual environments, reducing hardware costs and improving scalability and resource management."
             },
             {
               heading: "Virtual Desktop Infrastructure",
-              content: "We deploy VDI solutions for secure, flexible user access."
+              content: "We deploy VDI solutions to provide secure, flexible access to desktops and applications, enabling remote work and centralized management."
             },
             {
               heading: "Virtualization Optimization",
-              content: "We fine-tune virtual environments for maximum performance."
+              content: "We fine-tune virtual environments to maximize performance, addressing resource bottlenecks and ensuring seamless operations."
             }
           ],
           troubleshooting: [
+        {title: "Virtual Environment Support:"},
+
             {
               heading: "VM Diagnostics",
               content: "We identify and resolve issues in virtual machines for smooth operations."
@@ -478,24 +424,27 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We provide secure, compliant, and eco-friendly IT asset disposal services to protect your data and environment.",
           points: [
-            {
+          {title: "Our Asset Disposal Solutions:"},
+           {
               heading: "Secure Disposal",
-              content: "We safely dispose of outdated IT equipment, ensuring data security."
+              content: "We safely dispose of outdated IT equipment, using certified data wiping and destruction methods to ensure compliance and protect sensitive information."
             },
             {
               heading: "Asset Inventory",
-              content: "We catalog and track assets for efficient disposal processes."
+              content: "Our team meticulously catalogs and tracks IT assets, providing detailed reports to streamline the disposal process and ensure accountability."
             },
             {
               heading: "Recycling Services",
-              content: "We prioritize eco-friendly recycling to minimize environmental impact."
+              content: "We prioritize eco-friendly recycling practices, partnering with certified facilities to minimize environmental impact and promote sustainability."
             },
             {
               heading: "Compliance Management",
-              content: "We ensure disposal processes meet regulatory standards."
+              content: "We ensure disposal processes meet regulatory standards, including GDPR and HIPAA, to protect your business from compliance risks."
             }
           ],
           troubleshooting: [
+        {title: "Disposal Process Assistance:"},
+
             {
               heading: "Data Security Checks",
               content: "We verify secure data wiping to prevent breaches during disposal."
@@ -531,24 +480,26 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We manage large-scale IT and AV deployments across the globe, ensuring consistency and quality.",
           points: [
-            {
+            {title: "Our Worldwide Deployment Services:"},
+           {
               heading: "Global Rollouts",
-              content: "We manage IT and AV deployments across multiple locations worldwide."
+              content: "We manage large-scale IT and AV deployments across multiple global locations, ensuring consistency, quality, and timely execution."
             },
             {
               heading: "Logistics Coordination",
-              content: "We handle equipment shipping, setup, and configuration globally."
+              content: "Our team handles equipment shipping, tracking, and setup worldwide, coordinating logistics to ensure seamless delivery and installation."
             },
             {
               heading: "Project Management",
-              content: "We oversee every phase of global deployments for quality and consistency."
+              content: "We oversee every aspect of global deployments, from planning to completion, ensuring alignment with your business objectives and timelines."
             },
             {
               heading: "Remote Support",
-              content: "We provide remote assistance for smooth global deployments."
+              content: "We provide remote assistance for global deployments, offering real-time guidance to ensure smooth setup and integration across regions."
             }
           ],
           troubleshooting: [
+            {title: "Global Rollout Support:"},
             {
               heading: "Deployment Issues",
               content: "We resolve logistical and technical challenges during global rollouts."
@@ -575,24 +526,230 @@ import ser16 from '../../../../assets/images/services/s11.png'
         }
     },
         {
-            title: 'Custom Software Development',
-            desc: 'In today’s competitive business landscape, off-the-shelf solutions often fail to address unique operational needs. That’s why Techkyo provides Custom Software Development designed specifically for your organization. From streamlining processes to enabling growth, our tailored applications deliver efficiency, scalability, and measurable results.',
-            link: '#',
-            media: ser16,
-        },
+        id: "custom-software-development",
+        title: "Custom Software Development",
+        desc: 'In today’s competitive business landscape, off-the-shelf solutions often fail to address unique operational needs. That’s why Techkyo provides Custom Software Development designed specifically for your organization. From streamlining processes to enabling growth, our tailored applications deliver efficiency, scalability, and measurable results.',
+        media: ser16,
+        heroImage: ser16,
+        hero: "Tailored Solutions: Custom Software Development Services",
+        detailed: {
+          intro: "We design and develop bespoke software solutions to address your unique business challenges, ensuring scalability, efficiency, and seamless integration with existing systems.",
+          points: [
+            { title: "Our Custom Software Development Services:" },
+            {
+              heading: "Requirements Analysis",
+              content: "We collaborate closely with you to understand your business needs, defining clear requirements to ensure the software aligns with your goals and operational workflows."
+            },
+            {
+              heading: "Custom Application Development",
+              content: "Our developers build tailored applications using modern frameworks and languages, ensuring high performance, security, and user-friendly interfaces."
+            },
+            {
+              heading: "System Integration",
+              content: "We integrate your custom software with existing IT infrastructure, APIs, and third-party tools to create a cohesive and efficient ecosystem."
+            },
+            {
+              heading: "Maintenance and Upgrades",
+              content: "We provide ongoing support, updates, and enhancements to keep your software optimized and aligned with evolving business needs."
+            }
+          ],
+          troubleshooting: [
+            { title: "Software Support and Optimization:" },
+            {
+              heading: "Bug Fixing",
+              content: "We diagnose and resolve software bugs to ensure smooth functionality and minimal disruptions to your operations."
+            },
+            {
+              heading: "Performance Optimization",
+              content: "Our team analyzes and optimizes software performance, addressing bottlenecks to improve speed and reliability."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Tailored Expertise",
+              content: "Our developers craft solutions specifically designed for your business requirements."
+            },
+            {
+              heading: "Seamless Integration",
+              content: "We ensure your software works harmoniously with existing systems."
+            },
+            {
+              heading: "Reliable Support",
+              content: "Ongoing maintenance and troubleshooting keep your software running smoothly."
+            }
+          ]
+        }
+      },
         {
-            title: 'Web & Application Development',
-            desc: 'Your business deserves more than just an online presence—it needs a digital platform that is secure, scalable, and tailored to your goals. At Techkyo, we design and develop websites and applications that power business growth, improve efficiency, and deliver exceptional user experiences.',
-            link: '#',
+        id: "web-app-development",
+        title: "Web & Application Development",
+         desc: 'Your business deserves more than just an online presence—it needs a digital platform that is secure, scalable, and tailored to your goals. At Techkyo, we design and develop websites and applications that power business growth, improve efficiency, and deliver exceptional user experiences.',
+        //     link: '#',
             media: ser9,
-        },
-        {
-            title: 'Mobile App Development',
-            desc: 'In today’s mobile-first world, businesses need apps that engage customers, streamline operations, and enable growth. At Techkyo, we specialize in building custom mobile applications that combine functionality, security, and user-friendly design—ensuring your business stays connected anytime, anywhere.',
-            link: '#',
-            media: ser10,
-        },
-
+            heroImage: ser9,
+        hero: "Building Digital Experiences: Web & App Development Services",
+        detailed: {
+          intro: "We create responsive, high-performance web and mobile applications tailored to your business needs, delivering engaging user experiences across platforms.",
+          points: [
+            { title: "Our Web & App Development Services:" },
+            {
+              heading: "Web Development",
+              content: "We build responsive, scalable websites using modern frameworks like React, Angular, and Node.js, optimized for performance and SEO."
+            },
+            {
+              heading: "Mobile App Development",
+              content: "Our team develops native and cross-platform mobile apps for iOS and Android, ensuring seamless functionality and intuitive design."
+            },
+            {
+              heading: "UI/UX Design",
+              content: "We create user-centric designs with intuitive interfaces to enhance user engagement and satisfaction across web and mobile platforms."
+            },
+            {
+              heading: "API Development",
+              content: "We design and implement secure APIs to enable seamless communication between your apps and external systems."
+            }
+          ],
+          troubleshooting: [
+            { title: "Web & App Support Services:" },
+            {
+              heading: "Cross-Platform Debugging",
+              content: "We resolve compatibility issues across devices and browsers to ensure consistent performance."
+            },
+            {
+              heading: "App Performance Fixes",
+              content: "Our team optimizes app load times and responsiveness to enhance user experience."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Cross-Platform Expertise",
+              content: "We deliver seamless experiences across web and mobile platforms."
+            },
+            {
+              heading: "User-Centric Design",
+              content: "Our designs prioritize usability and engagement for your audience."
+            },
+            {
+              heading: "Scalable Solutions",
+              content: "We build apps that grow with your business and user base."
+            }
+          ]
+        }
+      },
+      {
+        id: "mobile-app-development",
+        title: "Mobile App Development",
+        desc: "In today’s mobile-first world, businesses need apps that engage customers, streamline operations, and enable growth. At Techkyo, we specialize in building custom mobile applications that combine functionality, security, and user-friendly design—ensuring your business stays connected anytime, anywhere.",
+        media: ser10,
+        heroImage: ser10,
+        hero: "Empowering Connections: Custom Mobile App Development",
+        detailed: {
+          intro: "We craft innovative mobile applications tailored to your business needs, delivering seamless user experiences, robust functionality, and secure performance across iOS and Android platforms to drive engagement and growth.",
+          points: [
+            { title: "Our Mobile App Solutions:" },
+            {
+              heading: "Custom App Development",
+              content: "Our team designs and builds native and cross-platform mobile apps using cutting-edge technologies like Swift, Kotlin, and Flutter, ensuring high performance and scalability."
+            },
+            {
+              heading: "UI/UX Design",
+              content: "We create intuitive, visually appealing interfaces that prioritize user engagement, accessibility, and seamless navigation for an exceptional mobile experience."
+            },
+            {
+              heading: "App Integration",
+              content: "We integrate your mobile app with existing systems, APIs, and third-party services to enhance functionality and ensure a cohesive digital ecosystem."
+            },
+            {
+              heading: "App Maintenance",
+              content: "We provide ongoing updates, performance enhancements, and feature additions to keep your app aligned with evolving user needs and platform standards."
+            },
+            {
+              heading: "App Store Deployment",
+              content: "We handle the entire process of preparing and submitting your app to the App Store and Google Play, ensuring compliance and a smooth launch."
+            }
+          ],
+          troubleshooting: [
+            { title: "App Support and Optimization:" },
+            {
+              heading: "Bug Resolution",
+              content: "We diagnose and fix app bugs to ensure smooth functionality and a consistent user experience across devices."
+            },
+            {
+              heading: "Performance Tuning",
+              content: "Our team optimizes app performance, addressing issues like slow load times or crashes to enhance reliability and user satisfaction."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "User-Centric Design",
+              content: "We prioritize intuitive interfaces and engaging experiences tailored to your audience."
+            },
+            {
+              heading: "Cross-Platform Expertise",
+              content: "Our apps deliver consistent performance on iOS, Android, and hybrid platforms."
+            },
+            {
+              heading: "Ongoing Support",
+              content: "We provide continuous maintenance to keep your app competitive and up-to-date."
+            }
+          ]
+        }
+      },
+      {
+        id: "sqa-testing",
+        title: "Software Quality Assurance & Testing",
+        desc: 'In today’s competitive digital landscape, even the smallest software flaws can lead to costly disruptions, security vulnerabilities, or a poor user experience. Our Software Quality Assurance & Testing service ensures your applications meet the highest standards of functionality, performance, and security before reaching your users.',
+            media: ser7,
+            heroImage: ser7,
+        hero: "Ensuring Quality: Software Quality Assurance & Testing Services",
+        detailed: {
+          intro: "We provide comprehensive software quality assurance and testing services to ensure your applications are reliable, secure, and perform optimally.",
+          points: [
+            { title: "Our SQA & Testing Services:" },
+            {
+              heading: "Functional Testing",
+              content: "We verify that your software meets all functional requirements, ensuring it performs as intended across use cases."
+            },
+            {
+              heading: "Performance Testing",
+              content: "We assess your software’s speed, scalability, and stability under various conditions to ensure optimal performance."
+            },
+            {
+              heading: "Security Testing",
+              content: "Our team identifies vulnerabilities and ensures your software is protected against threats and data breaches."
+            },
+            {
+              heading: "Automation Testing",
+              content: "We implement automated testing frameworks to streamline testing processes and improve efficiency."
+            }
+          ],
+          troubleshooting: [
+            { title: "Testing Support Services:" },
+            {
+              heading: "Bug Identification",
+              content: "We pinpoint and document software defects to facilitate quick resolution."
+            },
+            {
+              heading: "Test Environment Fixes",
+              content: "We troubleshoot issues in testing environments to ensure accurate results."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Thorough Testing",
+              content: "Our rigorous testing ensures high-quality, reliable software."
+            },
+            {
+              heading: "Security Focus",
+              content: "We prioritize protecting your applications from vulnerabilities."
+            },
+            {
+              heading: "Efficient Processes",
+              content: "Automation and expertise streamline testing for faster delivery."
+            }
+          ]
+        }
+      },
         {
         id: "security-operations",
         title: "Security Operations",
@@ -603,24 +760,26 @@ import ser16 from '../../../../assets/images/services/s11.png'
         detailed: {
           intro: "We safeguard your business with proactive security measures, ensuring your systems remain secure and compliant.",
           points: [
-            {
-              heading: "Threat Monitoring",
-              content: "Our 24/7 monitoring detects and responds to cyber threats in real-time to protect your systems."
-            },
-            {
-              heading: "Incident Response",
-              content: "We provide rapid response to security incidents, minimizing damage and ensuring quick recovery."
-            },
-            {
-              heading: "Security Assessments",
-              content: "We conduct audits to identify vulnerabilities and recommend actionable improvements."
-            },
-            {
-              heading: "Policy Implementation",
-              content: "We help establish security policies to ensure compliance and protect your data."
-            }
+            {title: "Our Cybersecurity Offerings:"},
+           {
+        heading: "Threat Monitoring",
+        content: "We deliver 24/7 real-time monitoring to detect and respond to cyber threats, leveraging advanced tools to protect your systems from potential attacks."
+      },
+      {
+        heading: "Incident Response",
+        content: "Our team swiftly addresses security incidents, implementing containment and recovery strategies to minimize damage and restore operations quickly."
+      },
+      {
+        heading: "Security Audits",
+        content: "We perform comprehensive audits to identify vulnerabilities, providing detailed recommendations to strengthen your security posture and ensure compliance."
+      },
+      {
+        heading: "Policy Implementation",
+        content: "We develop and enforce robust security policies tailored to your business, ensuring data protection and regulatory compliance."
+      }
           ],
           troubleshooting: [
+            {title: "Security Response Services:"},
             {
               heading: "Threat Analysis",
               content: "We diagnose and resolve security threats to maintain system integrity."
@@ -646,88 +805,609 @@ import ser16 from '../../../../assets/images/services/s11.png'
           ]
         }
       },
-        // {
-        //     title: 'Security Operations',
-        //     desc: 'In today’s digital-first business landscape, cybersecurity is no longer optional—it’s essential. Every second of downtime or vulnerability can expose your business to threats, compliance risks, and financial loss. Techkyo’s Security Operations services provide 24/7 monitoring, advanced threat detection, and rapid response to safeguard your IT infrastructure. With continuous coverage, we ensure your business remains secure, compliant, and resilient against evolving cyber threats.',
-        //     media: ser12,
-        //     link: '#',
-        // },
         {
-            title: 'Cybersecurity Solutions',
-            desc: 'With the increasing reliance on computers, networks, programmes, social media, and global data, organisations are facing a growing vulnerability to cyber threats on a daily basis. Techkyo Cybersecurity Solutions, powered by Overwatch, offer comprehensive protection for your business against cyberthreats.',
-            link: '#',
+        id: "cybersecurity-solutions",
+        title: "Cybersecurity Solutions",
+         desc: 'With the increasing reliance on computers, networks, programmes, social media, and global data, organisations are facing a growing vulnerability to cyber threats on a daily basis. Techkyo Cybersecurity Solutions, powered by Overwatch, offer comprehensive protection for your business against cyberthreats.',
             media: cyber,
-        },
+            heroImage: cyber,
+        hero: "Fortifying Your Systems: Advanced Cybersecurity Solutions",
+        detailed: {
+          intro: "We provide cutting-edge cybersecurity solutions to protect your business from evolving threats, ensuring data integrity and operational continuity.",
+          points: [
+            { title: "Our Cybersecurity Services:" },
+            {
+              heading: "Firewall Management",
+              content: "We configure and manage advanced firewalls to block unauthorized access and protect your network."
+            },
+            {
+              heading: "Endpoint Security",
+              content: "Our solutions secure all endpoints, including desktops, laptops, and mobile devices, against malware and attacks."
+            },
+            {
+              heading: "Penetration Testing",
+              content: "We simulate cyberattacks to identify and address vulnerabilities in your systems."
+            },
+            {
+              heading: "Compliance Consulting",
+              content: "We help you meet industry-specific cybersecurity regulations and standards."
+            }
+          ],
+          troubleshooting: [
+            { title: "Cybersecurity Support Services:" },
+            {
+              heading: "Threat Mitigation",
+              content: "We resolve active cyber threats to restore system security."
+            },
+            {
+              heading: "System Recovery",
+              content: "Our team assists in recovering systems affected by security breaches."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Advanced Protection",
+              content: "We use cutting-edge tools to safeguard your systems."
+            },
+            {
+              heading: "Compliance Expertise",
+              content: "Ensure adherence to industry standards with our guidance."
+            },
+            {
+              heading: "Rapid Recovery",
+              content: "Minimize impact with fast, effective response to breaches."
+            }
+          ]
+        }
+      },
         {
-            title: 'Project Management And Consulting',
-            desc: 'Our Project Management and Consulting services help businesses deliver projects on time, within budget, and aligned with strategic goals. From initial planning to execution and evaluation, Techkyo provides end-to-end guidance, risk management, and hands-on expertise. With structured methodologies and industry best practices, we empower organizations to achieve results with confidence and efficiency.',
-            link: '#',
+        id: "project-management-consulting",
+        title: "Project Management and Consulting",
+        desc: 'Our Project Management and Consulting services help businesses deliver projects on time, within budget, and aligned with strategic goals. From initial planning to execution and evaluation, Techkyo provides end-to-end guidance, risk management, and hands-on expertise. With structured methodologies and industry best practices, we empower organizations to achieve results with confidence and efficiency.',
             media: ser2,
-        },
+            heroImage: ser2,
+        hero: "Driving Success: Expert Project Management and Consulting",
+        detailed: {
+          intro: "We provide end-to-end project management and consulting services to ensure your IT and business initiatives are delivered on time and within budget.",
+          points: [
+            { title: "Our Project Management Services:" },
+            {
+              heading: "Project Planning",
+              content: "We develop detailed project plans, including timelines, resources, and milestones, to ensure successful execution."
+            },
+            {
+              heading: "Risk Management",
+              content: "Our team identifies and mitigates project risks to prevent delays and cost overruns."
+            },
+            {
+              heading: "Stakeholder Coordination",
+              content: "We facilitate communication among stakeholders to align expectations and goals."
+            },
+            {
+              heading: "Performance Tracking",
+              content: "We monitor project progress and provide regular updates to ensure transparency and accountability."
+            }
+          ],
+          troubleshooting: [
+            { title: "Project Support Services:" },
+            {
+              heading: "Issue Resolution",
+              content: "We address project roadblocks to keep initiatives on track."
+            },
+            {
+              heading: "Resource Optimization",
+              content: "Our team resolves resource allocation issues to maximize efficiency."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Proven Expertise",
+              content: "Our certified project managers deliver successful outcomes."
+            },
+            {
+              heading: "Transparent Processes",
+              content: "We keep you informed with clear, regular updates."
+            },
+            {
+              heading: "Tailored Strategies",
+              content: "Customized plans to meet your unique project goals."
+            }
+          ]
+        }
+      },
         {
-            title: 'Outsourcing & Remote Staffing',
-            desc: 'Our Outsourcing & Remote Staffing service helps organizations build flexible, skilled, and reliable teams without the overhead of in-house hiring. Whether you need short-term specialists, long-term dedicated staff, or full-function remote teams, Techkyo ensures you get top talent tailored to your business needs. With our structured processes, you gain efficiency, cost savings, and the ability to focus on your core operations while we manage the resources.',
-            link: '#',
-            media: ser3,
-        },
+        id: "outsourcing-remote-staffing",
+        title: "Outsourcing & Remote Staffing",
+        desc: 'Our Outsourcing & Remote Staffing service helps organizations build flexible, skilled, and reliable teams without the overhead of in-house hiring. Whether you need short-term specialists, long-term dedicated staff, or full-function remote teams, Techkyo ensures you get top talent tailored to your business needs. With our structured processes, you gain efficiency, cost savings, and the ability to focus on your core operations while we manage the resources.',
+        media: ser3,
+        heroImage: ser3,
+        hero: "Flexible Workforce: Outsourcing & Remote Staffing Solutions",
+        detailed: {
+          intro: "We provide scalable outsourcing and remote staffing solutions to enhance your workforce efficiency and reduce operational costs.",
+          points: [
+            { title: "Our Outsourcing Services:" },
+            {
+              heading: "Remote IT Staffing",
+              content: "We provide skilled IT professionals to support your projects remotely, ensuring expertise and flexibility."
+            },
+            {
+              heading: "Process Outsourcing",
+              content: "We handle IT and business processes, allowing you to focus on core operations."
+            },
+            {
+              heading: "Team Management",
+              content: "Our team oversees remote staff, ensuring productivity and alignment with your goals."
+            },
+            {
+              heading: "Scalable Solutions",
+              content: "We adjust staffing levels to meet your project demands, from short-term to long-term needs."
+            }
+          ],
+          troubleshooting: [
+            { title: "Remote Staffing Support:" },
+            {
+              heading: "Performance Issues",
+              content: "We address remote staff performance challenges to ensure productivity."
+            },
+            {
+              heading: "Communication Fixes",
+              content: "Our team resolves communication gaps to maintain seamless collaboration."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Cost Efficiency",
+              content: "Reduce costs with flexible, scalable staffing solutions."
+            },
+            {
+              heading: "Skilled Talent",
+              content: "Access our pool of experienced IT professionals."
+            },
+            {
+              heading: "Seamless Management",
+              content: "We handle staffing logistics for smooth operations."
+            }
+          ]
+        }
+      },
         {
-            title: 'Staffing & Recruitment Solutions',
-            desc: 'Finding the right talent is critical for business growth and sustainability. Without the right people, even the best strategies can fall short. Our Staffing & Recruitment Solutions help organizations attract, hire, and retain the talent they need to succeed. Whether you require temporary staff, permanent hires, or specialized IT professionals, Techkyo delivers tailored recruitment strategies that align with your organizational goals.',
-            link: '#',
-            media: ser4,
-        },
+        id: "staffing-recruitment-solutions",
+        title: "Staffing & Recruitment Solutions",
+        desc: 'Finding the right talent is critical for business growth and sustainability. Without the right people, even the best strategies can fall short. Our Staffing & Recruitment Solutions help organizations attract, hire, and retain the talent they need to succeed. Whether you require temporary staff, permanent hires, or specialized IT professionals, Techkyo delivers tailored recruitment strategies that align with your organizational goals.',
+        media: ser4,
+        heroImage: ser4,
+        hero: "Building Your Team: Expert Staffing & Recruitment Services",
+        detailed: {
+          intro: "We provide comprehensive staffing and recruitment services to connect you with top talent for your IT and business needs.",
+          points: [
+            { title: "Our Staffing Services:" },
+            {
+              heading: "Talent Sourcing",
+              content: "We identify and recruit highly qualified candidates to match your specific skill requirements."
+            },
+            {
+              heading: "Screening and Selection",
+              content: "Our rigorous screening process ensures you get candidates who fit your culture and goals."
+            },
+            {
+              heading: "Onboarding Support",
+              content: "We assist with seamless onboarding to integrate new hires into your team."
+            },
+            {
+              heading: "Contract Staffing",
+              content: "We provide flexible contract-based staffing for short-term or project-specific needs."
+            }
+          ],
+          troubleshooting: [
+            { title: "Recruitment Support Services:" },
+            {
+              heading: "Candidate Fit Issues",
+              content: "We resolve mismatches by refining candidate selection criteria."
+            },
+            {
+              heading: "Onboarding Challenges",
+              content: "Our team addresses onboarding issues to ensure smooth transitions."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Top Talent",
+              content: "We connect you with skilled professionals tailored to your needs."
+            },
+            {
+              heading: "Efficient Processes",
+              content: "Our streamlined recruitment saves you time and resources."
+            },
+            {
+              heading: "Flexible Staffing",
+              content: "We offer solutions for both permanent and contract roles."
+            }
+          ]
+        }
+      },
         {
-            title: 'Staff Augmentation',
-            desc: 'Building a Strong Foundation: Network Cabling and Connectivity Solutions in today’s globalized business environment, maintaining seamless technology operations across multiple locations is crucial. We offer comprehensive global dispatch and on-site tech support services to ensure your IT infrastructure stays up and running no matter where your business operates.',
-            link: '#',
+        id: "staff-augmentation",
+        title: "Staff Augmentation",
+        desc: 'Building a Strong Foundation: Network Cabling and Connectivity Solutions in today’s globalized business environment, maintaining seamless technology operations across multiple locations is crucial. We offer comprehensive global dispatch and on-site tech support services to ensure your IT infrastructure stays up and running no matter where your business operates.',
             media: staff,
-        },
+            heroImage: staff,
+        hero: "Scaling Your Team: Flexible Staff Augmentation Services",
+        detailed: {
+          intro: "We provide staff augmentation services to bolster your team with skilled professionals, ensuring flexibility and project success.",
+          points: [
+            { title: "Our Staff Augmentation Services:" },
+            {
+              heading: "Specialized Talent",
+              content: "We provide experts in IT, software development, and other fields to fill skill gaps in your team."
+            },
+            {
+              heading: "Flexible Scaling",
+              content: "We adjust team size based on project demands, from short-term to long-term engagements."
+            },
+            {
+              heading: "Seamless Integration",
+              content: "Our professionals integrate seamlessly with your existing team and workflows."
+            },
+            {
+              heading: "Performance Management",
+              content: "We monitor augmented staff performance to ensure alignment with your goals."
+            }
+          ],
+          troubleshooting: [
+            { title: "Augmentation Support Services:" },
+            {
+              heading: "Team Alignment",
+              content: "We resolve integration issues to ensure cohesive team dynamics."
+            },
+            {
+              heading: "Performance Fixes",
+              content: "Our team addresses performance gaps to maintain project momentum."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Skilled Professionals",
+              content: "Access our pool of specialized talent for your projects."
+            },
+            {
+              heading: "Flexible Solutions",
+              content: "Scale your team up or down as needed with ease."
+            },
+            {
+              heading: "Seamless Collaboration",
+              content: "Our staff integrates smoothly with your existing team."
+            }
+          ]
+        }
+      },
         {
-            title: 'Retail Support',
-            desc: 'In today’s world a simple loss of connectivity means lost sales and customers. Techkyo’s technical team minimizes downtime to keep our customers operational. We support all kinds of installations from footfall counters, electronic point of sales, desktop, servers, switches, UPS, etc. When required, onsite engineers are available on demand to ensure exceptional customer experience.',
-            link: '#',
+        id: "retail-support",
+        title: "Retail Support",
+        desc: 'In today’s world a simple loss of connectivity means lost sales and customers. Techkyo’s technical team minimizes downtime to keep our customers operational. We support all kinds of installations from footfall counters, electronic point of sales, desktop, servers, switches, UPS, etc. When required, onsite engineers are available on demand to ensure exceptional customer experience.',
             media: retail,
-        },
+            heroImage: retail,
+        hero: "Empowering Retail: Comprehensive Retail Support Services",
+        detailed: {
+          intro: "We provide tailored IT and operational support for retail businesses, ensuring seamless operations and enhanced customer experiences.",
+          points: [
+            { title: "Our Retail Support Services:" },
+            {
+              heading: "POS System Support",
+              content: "We install and maintain point-of-sale systems to ensure smooth retail transactions."
+            },
+            {
+              heading: "Inventory Management",
+              content: "Our solutions streamline inventory tracking and management for efficiency."
+            },
+            {
+              heading: "Customer Experience Tools",
+              content: "We implement digital tools to enhance in-store and online customer interactions."
+            },
+            {
+              heading: "Retail IT Integration",
+              content: "We integrate IT systems to support retail operations and data analytics."
+            }
+          ],
+          troubleshooting: [
+            { title: "Retail Support Services:" },
+            {
+              heading: "POS Troubleshooting",
+              content: "We resolve issues with POS systems to ensure uninterrupted sales."
+            },
+            {
+              heading: "System Downtime Fixes",
+              content: "Our team addresses IT system outages to minimize operational disruptions."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Retail Expertise",
+              content: "Our solutions are tailored to the unique needs of retail businesses."
+            },
+            {
+              heading: "Fast Support",
+              content: "We minimize downtime with rapid issue resolution."
+            },
+            {
+              heading: "Enhanced Experiences",
+              content: "Our tools improve customer satisfaction and loyalty."
+            }
+          ]
+        }
+      },
         {
-            title: 'End User Computing Support',
-            desc: 'Technology is an essential tool for business success, but technical issues can disrupt your workflow and cost valuable time. Our comprehensive IT support services ensure your systems run smoothly, allowing you to focus on what matters most – your business.',
-            link: '#',
+        id: "end-user-computing-support",
+        title: "End User Computing Support",
+        desc: 'Technology is an essential tool for business success, but technical issues can disrupt your workflow and cost valuable time. Our comprehensive IT support services ensure your systems run smoothly, allowing you to focus on what matters most – your business.',
             media: enduser,
-        },
+            heroImage: enduser,
+        hero: "Empowering Users: Reliable End User Computing Support",
+        detailed: {
+          intro: "We provide comprehensive support for end-user computing environments, ensuring seamless access to tools and resources for productivity.",
+          points: [
+            { title: "Our End User Computing Services:" },
+            {
+              heading: "Device Management",
+              content: "We configure and manage desktops, laptops, and mobile devices for optimal performance."
+            },
+            {
+              heading: "Software Support",
+              content: "Our team ensures end-user software is up-to-date and functioning smoothly."
+            },
+            {
+              heading: "Helpdesk Services",
+              content: "We provide 24/7 helpdesk support to resolve user issues quickly."
+            },
+            {
+              heading: "Remote Access Setup",
+              content: "We enable secure remote access to company resources for flexible work."
+            }
+          ],
+          troubleshooting: [
+            { title: "End User Support Services:" },
+            {
+              heading: "Device Troubleshooting",
+              content: "We diagnose and fix hardware and software issues on user devices."
+            },
+            {
+              heading: "Connectivity Fixes",
+              content: "Our team resolves network and remote access issues for seamless connectivity."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "User-Centric Support",
+              content: "We prioritize end-user experience for maximum productivity."
+            },
+            {
+              heading: "Rapid Resolutions",
+              content: "Our helpdesk ensures quick fixes to minimize downtime."
+            },
+            {
+              heading: "Secure Access",
+              content: "We enable safe, reliable access to your systems."
+            }
+          ]
+        }
+      },
         {
-            title: 'IT Training',
-            desc: 'In today’s technology-driven world, a skilled and knowledgeable team is essential for maintaining efficiency, security, and business growth. Techkyo’s IT Training services are designed to upskill your workforce with the latest industry practices, ensuring they are prepared to manage complex IT environments effectively.',
-            link: '#',
+        id: "it-training",
+        title: "IT Training",
+        desc: 'In today’s technology-driven world, a skilled and knowledgeable team is essential for maintaining efficiency, security, and business growth. Techkyo’s IT Training services are designed to upskill your workforce with the latest industry practices, ensuring they are prepared to manage complex IT environments effectively.',
             media: ser1,
-        },
+            heroImage: ser1,
+        hero: "Empowering Your Team: Comprehensive IT Training Services",
+        detailed: {
+          intro: "We provide tailored IT training programs to upskill your team, ensuring they can effectively use and manage your technology systems.",
+          points: [
+            { title: "Our IT Training Services:" },
+            {
+              heading: "Technical Training",
+              content: "We offer hands-on training on IT systems, software, and tools to enhance technical proficiency."
+            },
+            {
+              heading: "Cybersecurity Awareness",
+              content: "Our programs educate employees on best practices to prevent security threats."
+            },
+            {
+              heading: "Custom Workshops",
+              content: "We design tailored training sessions to address your specific technology needs."
+            },
+            {
+              heading: "Ongoing Learning",
+              content: "We provide continuous training to keep your team updated on new technologies."
+            }
+          ],
+          troubleshooting: [
+            { title: "Training Support Services:" },
+            {
+              heading: "Skill Gap Analysis",
+              content: "We identify and address skill gaps to ensure effective training outcomes."
+            },
+            {
+              heading: "Learning Support",
+              content: "Our team resolves issues with training materials or delivery for seamless learning."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Tailored Programs",
+              content: "Training customized to your team’s needs and skill levels."
+            },
+            {
+              heading: "Expert Trainers",
+              content: "Our experienced instructors deliver practical, impactful training."
+            },
+            {
+              heading: "Continuous Learning",
+              content: "We keep your team updated with the latest IT advancements."
+            }
+          ]
+        }
+      },
         {
-            title: 'Secured Warehousing',
-            desc: 'In today’s data-driven world, safeguarding IT hardware and business assets requires more than just physical storage—it demands a secure, compliant, and reliable environment. Techkyo’s Secure Warehouse service provides enterprises with a trusted facility for safe equipment storage, inventory management, and disaster recovery preparedness.',
-            link: '#',
+        id: "secured-warehousing",
+        title: "Secured Warehousing",
+        desc: 'In today’s data-driven world, safeguarding IT hardware and business assets requires more than just physical storage—it demands a secure, compliant, and reliable environment. Techkyo’s Secure Warehouse service provides enterprises with a trusted facility for safe equipment storage, inventory management, and disaster recovery preparedness.',
             media: ser6,
-        },
+            heroImage: ser6,
+        hero: "Protecting Your Assets: Secured Warehousing Services",
+        detailed: {
+          intro: "We offer secure warehousing solutions for your IT equipment, ensuring safe storage, inventory management, and timely deployment.",
+          points: [
+            { title: "Our Secured Warehousing Services:" },
+            {
+              heading: "Secure Storage",
+              content: "We provide climate-controlled, secure facilities to protect your IT hardware."
+            },
+            {
+              heading: "Inventory Management",
+              content: "Our team tracks and manages your equipment inventory for efficient access."
+            },
+            {
+              heading: "Equipment Staging",
+              content: "We prepare and stage IT equipment for deployment, ensuring readiness."
+            },
+            {
+              heading: "Logistics Coordination",
+              content: "We handle shipping and delivery of equipment to support your projects."
+            }
+          ],
+          troubleshooting: [
+            { title: "Warehousing Support Services:" },
+            {
+              heading: "Inventory Discrepancies",
+              content: "We resolve inventory tracking issues to ensure accuracy."
+            },
+            {
+              heading: "Equipment Issues",
+              content: "Our team addresses damage or functionality problems with stored equipment."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "High Security",
+              content: "Our facilities ensure your equipment is safe and protected."
+            },
+            {
+              heading: "Efficient Management",
+              content: "Streamlined inventory processes for quick access."
+            },
+            {
+              heading: "Reliable Logistics",
+              content: "We coordinate seamless equipment delivery for your projects."
+            }
+          ]
+        }
+      },
         {
-            title: 'Software Quality Assurance & Testing',
-            desc: 'In today’s competitive digital landscape, even the smallest software flaws can lead to costly disruptions, security vulnerabilities, or a poor user experience. Our Software Quality Assurance & Testing service ensures your applications meet the highest standards of functionality, performance, and security before reaching your users.',
-            link: '#',
-            media: ser7,
-        },
-        {
-            title: 'IT Hardware Procurement',
-            desc: 'Efficient IT operations start with the right hardware. At Techkyo, we simplify IT hardware procurement by sourcing, supplying, and managing the technology your business needs to stay ahead. From servers and storage to networking and end-user devices, we provide reliable hardware tailored to your unique requirements.',
-            link: '#',
+        id: "it-hardware-procurement",
+        title: "IT Hardware Procurement",
+        desc: 'Efficient IT operations start with the right hardware. At Techkyo, we simplify IT hardware procurement by sourcing, supplying, and managing the technology your business needs to stay ahead. From servers and storage to networking and end-user devices, we provide reliable hardware tailored to your unique requirements.',
             media: ser8,
-        },
-        {
-            title: 'AV Technology',
-            desc: 'We at Techkyo specialize in audio video installations. Our team of experts can install and deploy AV equipment in any environment including offices, healthcare facilities, schools and so much more. We have helped many customers with CISCO telepresence as well as zoom room installations, giving them fast, reliable and flexible services to meet their ever-changing needs.',
-            link: '#',
+            heroImage: ser8,
+        hero: "Equipping Your Business: Expert IT Hardware Procurement",
+        detailed: {
+          intro: "We streamline the procurement of IT hardware, ensuring you get the right equipment at the best value for your business needs.",
+          points: [
+            { title: "Our Procurement Services:" },
+            {
+              heading: "Vendor Selection",
+              content: "We identify and partner with trusted vendors to source high-quality IT hardware."
+            },
+            {
+              heading: "Hardware Specification",
+              content: "Our team helps select hardware that meets your performance and budget requirements."
+            },
+            {
+              heading: "Procurement Management",
+              content: "We handle the entire procurement process, from ordering to delivery, for efficiency."
+            },
+            {
+              heading: "Cost Optimization",
+              content: "We negotiate with suppliers to secure the best pricing and value."
+            }
+          ],
+          troubleshooting: [
+            { title: "Procurement Support Services:" },
+            {
+              heading: "Delivery Issues",
+              content: "We resolve delays or discrepancies in hardware deliveries."
+            },
+            {
+              heading: "Hardware Compatibility",
+              content: "Our team addresses compatibility issues with procured equipment."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Trusted Vendors",
+              content: "We source hardware from reliable, high-quality suppliers."
+            },
+            {
+              heading: "Cost Efficiency",
+              content: "Our negotiations ensure you get the best value."
+            },
+            {
+              heading: "Streamlined Process",
+              content: "We manage procurement for hassle-free delivery."
+            }
+          ]
+        }
+      },
+         {
+        id: "av-technology",
+        title: "AV Technology",
+        desc: 'We at Techkyo specialize in audio video installations. Our team of experts can install and deploy AV equipment in any environment including offices, healthcare facilities, schools and so much more. We have helped many customers with CISCO telepresence as well as zoom room installations, giving them fast, reliable and flexible services to meet their ever-changing needs.',
             media: av,
-        },
-        // {
-        //     title: '',
-        //     desc: '',
-        //     link: '#',
-        //     media: ser1,
-        // },
+            heroImage: av,
+        hero: "Enhancing Experiences: Advanced AV Technology Services",
+        detailed: {
+          intro: "We deliver cutting-edge audio-visual solutions to create immersive, user-friendly environments for your business or events.",
+          points: [
+            { title: "Our AV Technology Services:" },
+            {
+              heading: "AV System Design",
+              content: "We design tailored AV systems, including projectors, screens, and speakers, for optimal performance."
+            },
+            {
+              heading: "Installation and Setup",
+              content: "Our technicians handle the installation and configuration of AV equipment for seamless operation."
+            },
+            {
+              heading: "System Integration",
+              content: "We integrate AV systems with IT infrastructure for a unified, user-friendly experience."
+            },
+            {
+              heading: "Event Support",
+              content: "We provide AV setup and support for events, ensuring flawless audio and visual delivery."
+            }
+          ],
+          troubleshooting: [
+            { title: "AV Support Services:" },
+            {
+              heading: "Equipment Troubleshooting",
+              content: "We diagnose and fix issues with AV hardware, such as projectors and speakers."
+            },
+            {
+              heading: "Integration Fixes",
+              content: "Our team resolves connectivity issues between AV and IT systems."
+            }
+          ],
+          whyChooseUs: [
+            {
+              heading: "Expert Installation",
+              content: "Our certified technicians ensure high-quality AV setups."
+            },
+            {
+              heading: "Seamless Integration",
+              content: "We create cohesive AV and IT environments."
+            },
+            {
+              heading: "Reliable Support",
+              content: "Fast troubleshooting for uninterrupted AV performance."
+            }
+          ]
+        }
+      }
     ];

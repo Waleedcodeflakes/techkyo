@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import logo from '../../../assets/images/logo.png'
 import { Link, NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion';
-import { Facebook, Instagram, Linkedin } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, TicketIcon, Youtube } from 'lucide-react'
 
 const Footer = () => {
 
@@ -89,6 +89,8 @@ const Footer = () => {
                     <a href="https://www.facebook.com/techkyo" target='_blank'><Facebook className='w-5 h-5 text-[#bdbec7]  hover:text-white  '/></a>
                     <a href="https://www.instagram.com/techkyo" target='_blank'><Instagram className='w-5 h-5 text-[#bdbec7] hover:text-white   '/></a>
                     <a href="https://www.linkedin.com/in/techkyo" target='_blank'><Linkedin className='w-5 h-5 text-[#bdbec7]  hover:text-white  '/></a>
+                    <a href="https://www.linkedin.com/in/techkyo" target='_blank'><Youtube className='w-5 h-5 text-[#bdbec7]  hover:text-white  '/></a>
+                    {/* <a href="https://www.linkedin.com/in/techkyo" target='_blank'><TicketIcon className='w-5 h-5 text-[#bdbec7]  hover:text-white  '/></a> */}
                     {/* <Twitch className='w-5 h-5 text-[#01135c]    '/> */}
                 </div>
             </div>
@@ -109,7 +111,7 @@ const Footer = () => {
                         <li key={category} className="relative group">
                         {/* Category */}
                         <span onClick={() => toggleCategory(category)} className="block py-2 transition-all duration-200 text-[#bdbec7] text-base poppins-medium hover:text-white cursor-pointer">
-                            <span className='pr-2'>{activeCategory === category ? "+" : '-'}</span>{category}
+                            <span className='pr-2'>{activeCategory === category ? "-" : '+'}</span>{category}
                         </span>
                         {/* Subcategory Dropdown */}
                         {activeCategory === category && (
@@ -146,7 +148,7 @@ const Footer = () => {
                         <li key={category} className="relative group">
                         {/* Category */}
                         <span onClick={() => toggleCategory(category)} className="block py-2 transition-all duration-200 text-[#bdbec7] text-base poppins-medium hover:text-white cursor-pointer">
-                            <span className='pr-2'>{activeCategory === category ? "+" : '-'}</span>{category}
+                            <span className='pr-2'>{activeCategory === category ? "-" : '+'}</span>{category}
                         </span>
                         {/* Subcategory Dropdown */}
                         {activeCategory === category && (
