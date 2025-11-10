@@ -26,6 +26,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "professional-services",
         title: "Professional Services",
+        icon: 'https://cdn-icons-png.flaticon.com/128/8955/8955033.png',
         desc: 'Bringing Your Vision to Life: Professional AV Installation and Remote Support Services Creating a dynamic and engaging audio-visual experience requires skilled professionals and a seamless integration process. We offer comprehensive AV installation services, coupled with remote IT deployment support, to ensure your project is completed efficiently and according to your specific needs.',
         media: serv1,
         heroImage: serv1,
@@ -85,6 +86,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
          {
         id: "helpdesk-solutions",
         title: "Helpdesk Solutions",
+        icon: 'https://cdn-icons-png.freepik.com/512/7928/7928625.png',
          desc: "Techkyo offers 24/7 NOC and Helpdesk Solutions, providing cost-effective IT support services. Our NOC team consists of project managers and support staff who manage IT related problems providing proactive monitoring, troubleshooting, triage, resource identification, parts numbers, and action plans. Techkyo's support teams are on hand 24/7, ensuring customer satisfaction.",
             media: serv3,
             heroImage: serv3,
@@ -140,6 +142,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "datacenter-services",
         title: "Datacenter Services",
+        icon: 'https://cdn-icons-png.flaticon.com/128/2345/2345424.png',
          desc: 'Optimize Your Wireless Network with Ekahau Surveys -Performed by a Certified Partner Looking to improve your Wi-Fi performance? We’re a proud official partner of Ekahau, a leader in Wi-Fi network optimization solutions. Our team of experts can conduct a comprehensive Ekahau survey to identify and address any issues impacting your wireless network.',
             media: ser12,
             heroImage: ser12,
@@ -196,6 +199,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "wireless-survey",
         title: "Wireless Survey",
+        icon: 'https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024,h_1024/https://www.openreality.co.uk/wp-content/uploads/2022/06/WiFi-Global-Survey-Icon.png',
         desc: 'Optimize Your Wireless Network with Ekahau Surveys -Performed by a Certified Partner Looking to improve your Wi-Fi performance? We’re a proud official partner of Ekahau, a leader in Wi-Fi network optimization solutions. Our team of experts can conduct a comprehensive Ekahau survey to identify and address any issues impacting your wireless network.',
         media: serv2,
         heroImage: serv2,
@@ -251,6 +255,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "network-support",
         title: "Network Support",
+        icon: 'https://cdn-icons-png.flaticon.com/128/17821/17821928.png',
         desc: 'Maintaining a robust and reliable network infrastructure is essential for any business today. We offer a comprehensive suite of services to keep your network running smoothly, from planning and installation to troubleshooting and maintenance. Here’s how our team of experts can support your IT needs:',
         media: network,
         heroImage: network,
@@ -306,6 +311,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "structured-cabling",
         title: "Structured Cabling",
+        icon: 'https://cdn-icons-png.flaticon.com/128/6323/6323732.png',
         desc: 'A well-designed and organized network cabling system is the backbone of any successful IT infrastructure. It provides a reliable foundation for data transmission, voice communication, and security systems. Our team of experts offers a comprehensive range of cabling and connectivity solutions to meet your specific needs.',
             media: structure,
             heroImage: structure,
@@ -361,6 +367,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "virtualization-services",
         title: "Virtualization Services",
+        icon: 'https://cdn-icons-png.flaticon.com/128/19015/19015211.png',
         desc: 'Modern enterprises demand flexibility, scalability, and cost efficiency in their IT infrastructure. Techkyo’s Virtualization Services empower businesses to maximize hardware utilization, reduce costs, and improve operational agility. By consolidating resources and creating virtual environments, we help your business scale seamlessly, respond faster to change, and strengthen overall IT resilience.',
         media: ser5,
         heroImage: ser5,
@@ -417,6 +424,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "it-asset-disposal",
         title: "IT Asset Disposal",
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeaGM_N2UQFcJdHPPxhf1AhQc0vaYbhhVfg&s',
         desc: 'Supporting Your Transitions: Seamless Site Closure, Relocation & Device Disposal Solutions As your business evolves, you may face the need to close a site, relocate to a new location, or dispose of outdated equipment. We understand the complexities involved in managing these transitions and offer comprehensive services to ensure a smooth and secure process.',
             media: asset,
             heroImage: asset,
@@ -473,6 +481,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "global-deployments",
         title: "Global Deployments",
+        icon: 'https://cdn-icons-png.flaticon.com/128/17656/17656471.png',
         desc: 'Our team of experts have extensive experience in deploying desktops, servers and network devices globally. We can help with the planning and execution of services and provide the customer with greater savings as well as fast deployment.',
         media: serv1,
         heroImage: serv1,
@@ -528,6 +537,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "custom-software-development",
         title: "Custom Software Development",
+        icon: 'https://cdn-icons-png.flaticon.com/128/7991/7991055.png',
         desc: 'In today’s competitive business landscape, off-the-shelf solutions often fail to address unique operational needs. That’s why Techkyo provides Custom Software Development designed specifically for your organization. From streamlining processes to enabling growth, our tailored applications deliver efficiency, scalability, and measurable results.',
         media: ser16,
         heroImage: ser16,
@@ -583,6 +593,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "web-app-development",
         title: "Web & Application Development",
+        icon: 'https://cdn-icons-png.flaticon.com/128/12460/12460971.png',
          desc: 'Your business deserves more than just an online presence—it needs a digital platform that is secure, scalable, and tailored to your goals. At Techkyo, we design and develop websites and applications that power business growth, improve efficiency, and deliver exceptional user experiences.',
         //     link: '#',
             media: ser9,
@@ -639,6 +650,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
       {
         id: "mobile-app-development",
         title: "Mobile App Development",
+        icon: 'https://cdn-icons-png.freepik.com/512/6470/6470993.png',
         desc: "In today’s mobile-first world, businesses need apps that engage customers, streamline operations, and enable growth. At Techkyo, we specialize in building custom mobile applications that combine functionality, security, and user-friendly design—ensuring your business stays connected anytime, anywhere.",
         media: ser10,
         heroImage: ser10,
@@ -698,6 +710,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
       {
         id: "sqa-testing",
         title: "Software Quality Assurance & Testing",
+        icon: 'https://cdn-icons-png.flaticon.com/128/17276/17276630.png',
         desc: 'In today’s competitive digital landscape, even the smallest software flaws can lead to costly disruptions, security vulnerabilities, or a poor user experience. Our Software Quality Assurance & Testing service ensures your applications meet the highest standards of functionality, performance, and security before reaching your users.',
             media: ser7,
             heroImage: ser7,
@@ -753,6 +766,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "security-operations",
         title: "Security Operations",
+        icon: 'https://cdn-icons-png.flaticon.com/128/6783/6783360.png',
         desc: 'In today’s digital-first business landscape, cybersecurity is no longer optional—it’s essential. Every second of downtime or vulnerability can expose your business to threats, compliance risks, and financial loss. Techkyo’s Security Operations services provide 24/7 monitoring, advanced threat detection, and rapid response to safeguard your IT infrastructure. With continuous coverage, we ensure your business remains secure, compliant, and resilient against evolving cyber threats.',
         media: ser12,
         heroImage: ser12,
@@ -808,6 +822,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "cybersecurity-solutions",
         title: "Cybersecurity Solutions",
+        icon: 'https://cdn-icons-png.flaticon.com/128/6071/6071531.png',
          desc: 'With the increasing reliance on computers, networks, programmes, social media, and global data, organisations are facing a growing vulnerability to cyber threats on a daily basis. Techkyo Cybersecurity Solutions, powered by Overwatch, offer comprehensive protection for your business against cyberthreats.',
             media: cyber,
             heroImage: cyber,
@@ -863,6 +878,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "project-management-consulting",
         title: "Project Management and Consulting",
+        icon: 'https://cdn-icons-png.flaticon.com/512/9402/9402518.png',
         desc: 'Our Project Management and Consulting services help businesses deliver projects on time, within budget, and aligned with strategic goals. From initial planning to execution and evaluation, Techkyo provides end-to-end guidance, risk management, and hands-on expertise. With structured methodologies and industry best practices, we empower organizations to achieve results with confidence and efficiency.',
             media: ser2,
             heroImage: ser2,
@@ -918,6 +934,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "outsourcing-remote-staffing",
         title: "Outsourcing & Remote Staffing",
+        icon: 'https://cdn-icons-png.flaticon.com/128/17616/17616266.png',
         desc: 'Our Outsourcing & Remote Staffing service helps organizations build flexible, skilled, and reliable teams without the overhead of in-house hiring. Whether you need short-term specialists, long-term dedicated staff, or full-function remote teams, Techkyo ensures you get top talent tailored to your business needs. With our structured processes, you gain efficiency, cost savings, and the ability to focus on your core operations while we manage the resources.',
         media: ser3,
         heroImage: ser3,
@@ -973,6 +990,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "staffing-recruitment-solutions",
         title: "Staffing & Recruitment Solutions",
+        icon: 'https://cdn-icons-png.flaticon.com/512/2942/2942339.png',
         desc: 'Finding the right talent is critical for business growth and sustainability. Without the right people, even the best strategies can fall short. Our Staffing & Recruitment Solutions help organizations attract, hire, and retain the talent they need to succeed. Whether you require temporary staff, permanent hires, or specialized IT professionals, Techkyo delivers tailored recruitment strategies that align with your organizational goals.',
         media: ser4,
         heroImage: ser4,
@@ -1028,6 +1046,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "staff-augmentation",
         title: "Staff Augmentation",
+        icon: 'https://cdn-icons-png.freepik.com/256/852/852237.png?semt=ais_white_label',
         desc: 'Building a Strong Foundation: Network Cabling and Connectivity Solutions in today’s globalized business environment, maintaining seamless technology operations across multiple locations is crucial. We offer comprehensive global dispatch and on-site tech support services to ensure your IT infrastructure stays up and running no matter where your business operates.',
             media: staff,
             heroImage: staff,
@@ -1083,6 +1102,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "retail-support",
         title: "Retail Support",
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBFOt-TPh9bVCC7hgLlnGwEkD6La18K67RMwdlY3wsjwBjbajbAHgQNoMrEoJS7dOPA-M&usqp=CAU',
         desc: 'In today’s world a simple loss of connectivity means lost sales and customers. Techkyo’s technical team minimizes downtime to keep our customers operational. We support all kinds of installations from footfall counters, electronic point of sales, desktop, servers, switches, UPS, etc. When required, onsite engineers are available on demand to ensure exceptional customer experience.',
             media: retail,
             heroImage: retail,
@@ -1138,6 +1158,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "end-user-computing-support",
         title: "End User Computing Support",
+        icon: 'https://cdn-icons-png.flaticon.com/128/2967/2967538.png',
         desc: 'Technology is an essential tool for business success, but technical issues can disrupt your workflow and cost valuable time. Our comprehensive IT support services ensure your systems run smoothly, allowing you to focus on what matters most – your business.',
             media: enduser,
             heroImage: enduser,
@@ -1193,6 +1214,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "it-training",
         title: "IT Training",
+        icon: 'https://cdn-icons-png.flaticon.com/128/10748/10748263.png',
         desc: 'In today’s technology-driven world, a skilled and knowledgeable team is essential for maintaining efficiency, security, and business growth. Techkyo’s IT Training services are designed to upskill your workforce with the latest industry practices, ensuring they are prepared to manage complex IT environments effectively.',
             media: ser1,
             heroImage: ser1,
@@ -1248,6 +1270,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "secured-warehousing",
         title: "Secured Warehousing",
+        icon: 'https://cdn-icons-png.flaticon.com/128/1456/1456809.png',
         desc: 'In today’s data-driven world, safeguarding IT hardware and business assets requires more than just physical storage—it demands a secure, compliant, and reliable environment. Techkyo’s Secure Warehouse service provides enterprises with a trusted facility for safe equipment storage, inventory management, and disaster recovery preparedness.',
             media: ser6,
             heroImage: ser6,
@@ -1303,6 +1326,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
         {
         id: "it-hardware-procurement",
         title: "IT Hardware Procurement",
+        icon: 'https://cdn-icons-png.flaticon.com/128/13669/13669588.png',
         desc: 'Efficient IT operations start with the right hardware. At Techkyo, we simplify IT hardware procurement by sourcing, supplying, and managing the technology your business needs to stay ahead. From servers and storage to networking and end-user devices, we provide reliable hardware tailored to your unique requirements.',
             media: ser8,
             heroImage: ser8,
@@ -1358,6 +1382,7 @@ import ser16 from '../../../../assets/images/services/s11.png'
          {
         id: "av-technology",
         title: "AV Technology",
+        icon: 'https://cdn-icons-png.flaticon.com/512/1023/1023584.png',
         desc: 'We at Techkyo specialize in audio video installations. Our team of experts can install and deploy AV equipment in any environment including offices, healthcare facilities, schools and so much more. We have helped many customers with CISCO telepresence as well as zoom room installations, giving them fast, reliable and flexible services to meet their ever-changing needs.',
             media: av,
             heroImage: av,
