@@ -3,7 +3,7 @@ import logo from '../../../assets/images/logoDark.png'
 import { AnimatePresence, motion } from 'framer-motion';
 
 import { NavLink } from 'react-router-dom'
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { ChevronDown, ChevronLeft, ChevronRight, Menu, X } from 'lucide-react';
 import SocialLinks from './SocialLinks';
 
 const Navbar = () => {
@@ -81,10 +81,10 @@ const Navbar = () => {
                 <img src={logo} alt="icon" />
             </div>
             <nav>
-                <ul className='hidden md:flex items-center gap-4 poppins-medium'>
+                <ul className='hidden lg:flex items-center gap-4 poppins-medium'>
                     <li><NavLink  to="/" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Home</NavLink></li>
                     <li className="relative group">
-                        <NavLink to="/company" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>About us</NavLink>
+                        <NavLink to="/company" className={({ isActive }) =>` text-base   py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>About us</NavLink>
                     </li>
                     <li 
                     className="relative"
@@ -97,8 +97,8 @@ const Navbar = () => {
                             {Object.entries(serviceCategories).map(([category, subServices]) => (
                                 <li key={category} className="relative group">
                                 {/* Category */}
-                                <span className="block px-4 py-2 text-sm poppins-semibold text-[#1f276e] hover:bg-[#f0f0f0] cursor-pointer">
-                                    {category}
+                                <span className="block flex justify-between px-4 py-2 text-sm poppins-semibold text-[#1f276e] hover:bg-[#f0f0f0] cursor-pointer">
+                                    {category} <ChevronRight className='w-4 h-4'/>
                                 </span>
                                 {/* Subcategory Dropdown */}
                                 <div className="absolute left-full top-0 mt-0 hidden group-hover:block bg-white shadow-lg rounded-lg min-w-[200px]">
@@ -111,7 +111,7 @@ const Navbar = () => {
                                             className="hover:bg-[#f0f0f0] poppins-medium hover:border-l-[2px] poppins-medium hover:border-black block px-4 py-2 text-sm text-[#1f276e] hover:text-[#031359]"
                                             >
                                             {s}
-                                            </NavLink>
+                                        </NavLink>
                                         </li>
                                     ))}
                                     </ul>
@@ -121,7 +121,6 @@ const Navbar = () => {
                             </ul>
                         </div>
                         )}
-                    
                     </li>
                     <li 
                     className="relative"
@@ -135,8 +134,8 @@ const Navbar = () => {
                             {Object.entries(sectorCategories).map(([category, subServices]) => (
                                 <li key={category} className="relative group">
                                 {/* Category */}
-                                <span className="block px-4 py-2 text-sm poppins-semibold text-[#1f276e] hover:bg-[#f0f0f0] cursor-pointer">
-                                    {category}
+                                <span className="block px-4 flex justify-between py-2 text-sm poppins-semibold text-[#1f276e] hover:bg-[#f0f0f0] cursor-pointer">
+                                    {category} <ChevronRight className='w-4 h-4'/>
                                 </span>
                                 {/* Subcategory Dropdown */}
                                 <div className="absolute left-full top-0 mt-0 hidden group-hover:block bg-white shadow-lg rounded-lg min-w-[200px]">
@@ -164,19 +163,19 @@ const Navbar = () => {
                     <li><NavLink to="/techkyo-worldwide" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Techkyo Worldwide</NavLink></li>
                     <li><NavLink to="/careers" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Careers</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Contact</NavLink></li>
-                    <li><NavLink to="/contact" className="bg-[#1f276e] px-5 py-3 rounded-[50px] text-white" >Become a Partner</NavLink></li>
+                    <button><NavLink to="/contact" className="bg-[#1f276e] px-5 py-3 rounded-[50px] text-white" >Become a Partner</NavLink></button>
                 </ul>
-                <div className='block md:hidden'>
-                    <Menu onClick={() => setMenuBar(true)} className='w-8 h-8 text-black' />
+                <div className='block lg:hidden'>
+                    <Menu onClick={() => setMenuBar(true)} className='w-8 h-8 cursor-pointer text-black' />
                 </div>
                 {menuBar && (
                     <div>
-                     <ul className='flex flex-col z-10 gap-10 pl-4  md:hidden items-cente bg-white absolute top-0 left-0 h-screen w-[90%] sm:w-[50%] poppins-medium'>
+                     <ul className='flex flex-col z-10 gap-10 pl-4  lg:hidden items-cente bg-white absolute top-0 left-0 h-screen w-[90%] sm:w-[50%] poppins-medium'>
                         <div className='flex items-center justify-between py-3'>
                             <div className='w-[60%] sm:w-[45%]'>
                                 <img src={logo} alt="icon" />
                             </div>
-                            <X onClick={() => setMenuBar(false)} className='w-12 h-12 text-black pr-4' />
+                            <X onClick={() => setMenuBar(false)} className='w-12 h-12 cursor-pointer text-black pr-4' />
                         </div>
                     <li><NavLink  to="/" className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Home</NavLink></li>
                     <li className="relative group">

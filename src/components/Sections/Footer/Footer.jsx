@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import logo from '../../../assets/images/logo.png'
 import { Link, NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion';
-import { Facebook, Instagram, Linkedin, TicketIcon, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react'
 
 const Footer = () => {
 
@@ -81,10 +81,10 @@ const Footer = () => {
         <img className='w-[55%] sm:w-[15%] my-10' src={logo} alt="" />
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 justify-between items-start'>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-white poppins-semibold text-base md:text-lg mb-3'>Japan Office</h3>
+                <h3 className='text-white poppins-semibold text-base md:text-lg mb-3'>UK Office</h3>
                 <p className='text-[#bdbec7] text-base poppins-medium'><strong>Address:</strong> 450 Bath Road, Longford,<br/> Heathrow London, UB7 0EB, UK</p>
-                <p className='text-[#bdbec7] text-base poppins-medium'><strong>Phone:</strong> +81 80-3585-0786</p>
-                <p className='text-[#bdbec7] text-base poppins-medium'><strong>Email:</strong> info@techkyo.com</p>
+                {/* <p className='text-[#bdbec7] text-base poppins-medium'><strong>Phone:</strong> +81 80-3585-0786</p> */}
+                <a href='mailto:info@techkyo.com' className='text-[#bdbec7] text-base poppins-medium'><strong>Email:</strong> info@techkyo.com</a>
                 <div className=' flex items-end justify-start gap-4 mt-3'>
                     <a href="https://www.facebook.com/techkyo" target='_blank'><Facebook className='w-5 h-5 text-[#bdbec7]  hover:text-white  '/></a>
                     <a href="https://www.instagram.com/techkyo" target='_blank'><Instagram className='w-5 h-5 text-[#bdbec7] hover:text-white   '/></a>
@@ -181,7 +181,7 @@ const Footer = () => {
         </div>
     </footer>
         <div className='w-full bg-[#003278] text-center py-5'>
-        <p className='poppins-regular text-[#bdbec7] text-[15px] px-3'>© 2025 Techkyo | Delivering with scale and agility. All Rights Reserved.</p>
+        <p className='poppins-regular text-[#bdbec7] text-[15px] px-3'>© {new Date().getFullYear()} Techkyo | Delivering with scale and agility. All Rights Reserved.</p>
     </div>
     </section>
   )

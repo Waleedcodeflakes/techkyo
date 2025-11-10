@@ -26,14 +26,14 @@ const Hero = () => {
   return () => clearTimeout(timeout);
 }, []);
 
-  const wavesData = [
-    { duration: 15, initialX: '-10%', finalX: '110%', opacity: 1, height: '300px', zIndex: 5 },
-    { duration: 12, initialX: '-50%', finalX: '150%', opacity: 0.8, height: '30px', zIndex: 4 },
-    { duration: 18, initialX: '0%', finalX: '120%', opacity: 0.6, height: '300px', zIndex: 3 },
-    { duration: 14, initialX: '20%', finalX: '130%', opacity: 0.4, height: '300px', zIndex: 2 },
-    { duration: 16, initialX: '50%', finalX: '140%', opacity: 0.2, height: '300px', zIndex: 1 },
-    { duration: 20, initialX: '10%', finalX: '115%', opacity: 0.1, height: '300px', zIndex: 0 },
-  ];
+  // const wavesData = [
+  //   { duration: 15, initialX: '-10%', finalX: '110%', opacity: 1, height: '300px', zIndex: 5 },
+  //   { duration: 12, initialX: '-50%', finalX: '150%', opacity: 0.8, height: '30px', zIndex: 4 },
+  //   { duration: 18, initialX: '0%', finalX: '120%', opacity: 0.6, height: '300px', zIndex: 3 },
+  //   { duration: 14, initialX: '20%', finalX: '130%', opacity: 0.4, height: '300px', zIndex: 2 },
+  //   { duration: 16, initialX: '50%', finalX: '140%', opacity: 0.2, height: '300px', zIndex: 1 },
+  //   { duration: 20, initialX: '10%', finalX: '115%', opacity: 0.1, height: '300px', zIndex: 0 },
+  // ];
 
 
   return (
@@ -63,7 +63,7 @@ const Hero = () => {
                 <p className="poppins-meium text-[20px] text-center text-white">Techkyo has a strong global presence, delivering solutions across more than 50 countries.</p>
                 </div>
         </div>
-        <div
+        {/* <div
       style={{
         position: 'relative z-50',
         width: '100%',
@@ -96,7 +96,7 @@ const Hero = () => {
           }}
         />
       ))}
-    </div>
+    </div> */}
     </div>
     </div>
   )
