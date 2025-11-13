@@ -12,6 +12,7 @@ import TechkyoWorldwide from './components/Pages/TechkyoWorldwide/TechkyoWorldwi
 import Partners from './components/Pages/Partners/Partners';
 import Whatsapp from './components/Sections/whatsapp';
 import ServicesSubPage from './components/Pages/Services/ServicesSubPage/ServicesSubPage';
+import CoreServices from './components/Pages/CoreServices/CoreServices';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/services' element={<Services/>} />
+        <Route path='/core-services' element={<CoreServices/>} />
         <Route path='/services/:id' element={<ServicesSubPage/>} />
         <Route path='/company' element={<Company />} />
         <Route path='/sectors' element={<Sectors />} />

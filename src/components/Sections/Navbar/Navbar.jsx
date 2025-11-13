@@ -122,7 +122,7 @@ const Navbar = () => {
                         </div>
                         )}
                     </li>
-                    <li><NavLink to="/services"  state={{ scrollTo: "Custom Software Development" }}  className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Core Services</NavLink></li>
+                    <li><NavLink to="/core-services"  state={{ scrollTo: "Custom Software Development" }}  className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Core Services</NavLink></li>
                     <li 
                     className="relative"
                     onMouseEnter={() => setOpenMenu("sectors")}
