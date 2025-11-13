@@ -33,8 +33,8 @@ const Sectors = () => {
     ];
   return (
     <section className='w-[93%] m-auto my-20 py-10 sm:py-20 rounded-[40px] bg-[#f0f1f5]'>
-        <div className='flex gap-10 items-center'>
-            <div className='w-[50%] grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-8 mx-3 sm:mx-20'>
+        <div className='block sm:flex gap-10 items-center'>
+            <div className='w-full sm:w-[50%] grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-8 px-3 sm:px-20'>
                 {sectors.map((s, idx) => (
                     <div key={idx} className='h-full rounded-lg group hover:shadow-[0_8px_90px_4px_rgba(38,42,76,0.1)] shadow-[0_5px_70px_rgba(38,42,76,0.1)] bg-white p-6 flex flex-col items-start justify-between gap-6'>
                         <div className='flex flex-col gap-6'>
@@ -48,7 +48,7 @@ const Sectors = () => {
                     </div>
                 ))}
             </div>
-            <div className='w-[50%] px-3 sm:px-10 text-left'>
+            <div className='w-full sm:w-[50%] px-3 pt-3 sm:pt-0 sm:px-10 text-left'>
                 <h3 className='poppins-semibold text-[40px] text-[#1f276e]'>Sectors</h3>
                 <p className='poppins-regular text-[18px] text-[#455882] py-5'>Our expertise spans retail, enterprise, data center, carrier network, manufacturing, and government sectors, offering customized solutions to address a wide range of requirements.</p>
                 <div className='flex  mb-10'>

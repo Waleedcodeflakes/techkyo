@@ -207,6 +207,7 @@ const Navbar = () => {
                     )} */}
                     
                     </li>
+                    <li><NavLink to="/core-services"  state={{ scrollTo: "Custom Software Development" }}  className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Core Services</NavLink></li>
                     <li><NavLink to="/sectors" className={({ isActive }) =>` text-base py-3 px-2 flex items-center gap-3 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Sectors
                     <ChevronDown className='w-5 h-5 hover:text-[#031359] text-[#1f276e]' />
                     </NavLink></li>
