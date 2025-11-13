@@ -40,9 +40,9 @@ const ServicesData = () => {
                     className='block md:flex items-center gap-10'>
                         <div className='w-full md:w-[45%]'>
                             <div className='flex gap-2 items-center'>
-                                <div className='p-3 bg-[#fff] rounded-full w-[18%]'>
+                                {/* <div className='p-3 bg-[#fff] rounded-full w-[18%]'>
                                     <img className='w-14 h-14' src={s.icon} alt={s.title} />
-                                </div>
+                                </div> */}
                                 <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             </div>
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>
@@ -61,9 +61,9 @@ const ServicesData = () => {
                         </div>
                         <div className='w-full md:w-[45%]'>
                             <div className='flex gap-2 items-center'>
-                                <div className='p-3 bg-[#fff] rounded-full'>
+                                {/* <div className='p-3 bg-[#fff] rounded-full'>
                                 <img className='w-14 h-14' src={s.icon} alt={s.title} />
-                                </div>
+                                </div> */}
                                 <h2 className='text-[#1f276e] text-[26px] sm:text-[34px] poppins-semibold'>{s.title}</h2>
                             </div>
                             <p  className='text-[#696969] text-[14px] sm:text-[15px] poppins-regular py-6 leading-6.5'>{s.desc}</p>

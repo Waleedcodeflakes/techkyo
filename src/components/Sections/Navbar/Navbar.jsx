@@ -90,7 +90,7 @@ const Navbar = () => {
                     className="relative"
                     onMouseEnter={() => setOpenMenu("services")}
                     onMouseLeave={() => setOpenMenu(null)}
-                    ><NavLink to="/services" className={({ isActive }) =>`flex items-center gap-2 text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Services <ChevronDown className='w-5 h-5 hover:text-[#031359] text-[#1f276e]' /> </NavLink>
+                    ><NavLink to="/services" className={({ isActive }) =>`flex items-center gap-2 text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>IT Services <ChevronDown className='w-5 h-5 hover:text-[#031359] text-[#1f276e]' /> </NavLink>
                     {openMenu === "services" && (
                         <div className="absolute left-0 top-[40px] mt-2 w-64 bg-white shadow-lg rounded-lg z-50">
                             <ul className="py-2">
@@ -122,6 +122,7 @@ const Navbar = () => {
                         </div>
                         )}
                     </li>
+                    <li><NavLink to="/services"  state={{ scrollTo: "Custom Software Development" }}  className={({ isActive }) =>` text-base py-3 px-2 hover:text-[#031359] ${isActive ? 'text-[#1f276e]' : 'hover:text-[#031359] text-[#1f276e]'}`}>Core Services</NavLink></li>
                     <li 
                     className="relative"
                     onMouseEnter={() => setOpenMenu("sectors")}
