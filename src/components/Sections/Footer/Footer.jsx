@@ -99,6 +99,7 @@ const Footer = () => {
                 <ul className='text-[#bdbec7] text-base poppins-medium flex flex-col gap-7'>
                     <li><Link className='hover:text-white' to="/">Home</Link></li>
                     <li><Link className='hover:text-white' to="/services">Services</Link></li>
+                    <li><Link className='hover:text-white' to="/core-services">Core Services</Link></li>
                     <li><Link className='hover:text-white' to="/sectors">Sectors</Link></li>
                     <li><Link className='hover:text-white' to="/contact">Contact</Link></li>
                     <li><Link className='hover:text-white' to="/partners">Partners</Link></li>

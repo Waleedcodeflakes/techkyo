@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import logo from '../../../assets/images/logoDark.png'
 import { AnimatePresence, motion } from 'framer-motion';
-
 import { NavLink } from 'react-router-dom'
-import { ChevronDown, ChevronLeft, ChevronRight, Menu, X } from 'lucide-react';
+import { ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
 import SocialLinks from './SocialLinks';
 
 const Navbar = () => {
