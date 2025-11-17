@@ -65,7 +65,7 @@ const WhatWeDo = () => {
         <p className='poppins-light text-xl text-[#696969] text-center my-4'>Techkyo has a strong global presence, delivering solutions across more than 50 countries. Our engineers, many of whom are multi lingual, range from level 1 through to level 3 across a broad spectrum of vendor technologies and we pride ourselves on being able to assist in almost any situation.</p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center mt-6'>
             {visibleCards.map((s, idx) => (
-                <div key={idx} className='py-8 px-3 bg-[#1e236b] rounded-lg flex flex-col items-center justify-between gap-5'>
+                <div key={idx} className='py-8 px-3 bg-[#1b1d4e] rounded-lg flex flex-col items-center justify-between gap-5'>
                     <div className='flex flex-col gap-5'>
                         <div className='flex items-center justify-center'>{s.icon}</div>
                         <h3 className='poppins-medium text-xl text-white text-center'>{s.title}</h3>
@@ -78,7 +78,7 @@ const WhatWeDo = () => {
         <div className='w-full flex justify-center mt-9'>
         <button
           onClick={() => setShowAll(!showAll)}
-          className="px-5 py-3 flex poppins-medium text-[15px] text-center border rounded-[50px] bg-[#1e236b] text-[#fff] "
+          className="px-5 py-3 flex poppins-medium text-[15px] text-center border rounded-[50px] bg-[#1b1d4e] text-[#fff] "
         >
           {showAll ? 'Show Less' : 'Show More'}
           {showAll ? <ChevronUp className='w-5 -5 text-white' /> : <ChevronDown className='w-5 -5 text-white' />}

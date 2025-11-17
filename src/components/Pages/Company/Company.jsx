@@ -72,7 +72,7 @@ const Company = () => {
         <p className='poppins-light text-xl text-[#696969] text-center my-4'>You can always count on Htech support because we know the values.</p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center'>
             {services.map((s, idx) => (
-                <div key={idx} className='py-8 px-3 bg-[#1e236b] rounded-lg flex flex-col items-center justify-between gap-5 mt-6'>
+                <div key={idx} className='py-8 px-3 bg-[#1b1d4e] rounded-lg flex flex-col items-center justify-between gap-5 mt-6'>
                     <div className='flex flex-col gap-5'>
                         <div className='flex items-center justify-center'>{s.icon}</div>
                         <h3 className='poppins-medium text-[24px] sm:text-[28px] text-white text-center'>{s.title}</h3>

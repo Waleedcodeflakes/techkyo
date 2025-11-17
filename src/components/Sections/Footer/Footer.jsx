@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import logo from '../../../assets/images/logo.png'
+import logo from '../../../assets/images/techkyo.png'
+import iso1 from '../../../assets/iso/iso1.jpeg'
+import iso2 from '../../../assets/iso/iso3.png'
 import { Link, NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion';
 import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react'
@@ -78,8 +80,14 @@ const Footer = () => {
   return (
     <section className='w-full bg-[#004687]'>
     <footer className='w-[92%] m-auto mt-16 py-18'>
-        <img className='w-[55%] sm:w-[15%] my-10' src={logo} alt="" />
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 justify-between items-start'>
+        <img className='w-[55%] sm:w-[18%] my-10' src={logo} alt="" />
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 justify-between items-start'>
+            <div className='flex flex-col gap-3 pr-4'>
+                <div className='flex gap-3'>
+                    <img className='w-[50%] rounded-full' src={iso1} alt="iso certificate" />
+                    <img className='w-[50%] rounded-full' src={iso2} alt="iso certificate" />
+                </div>
+            </div>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-white poppins-semibold text-base md:text-lg mb-3'>UK Office</h3>
                 <p className='text-[#bdbec7] text-base poppins-medium'><strong>Address:</strong> 450 Bath Road, Longford,<br/> Heathrow London, UB7 0EB, UK</p>

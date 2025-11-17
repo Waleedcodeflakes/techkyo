@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import logo from '../../../assets/images/logoDark.png'
+import logo from '../../../assets/images/techkyo2.png'
+// import logo from '../../../assets/images/logoDark.png'
 import { AnimatePresence, motion } from 'framer-motion';
 import { NavLink } from 'react-router-dom'
 import { ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
